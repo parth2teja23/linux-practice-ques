@@ -50,7 +50,7 @@ export default function Home() {
 
       {/* Sidebar */}
       <div
-        className={`fixed md:static top-0 left-0 z-10 h-screen overflow-y-auto bg-white w-64 p-4 border-r transform transition-transform duration-300 ease-in-out ${
+        className={`fixed md:static top-0 left-0 z-10 h-full bg-white w-64 p-4 border-r transform transition-transform duration-300 ease-in-out overflow-y-auto ${
           showSidebar ? 'translate-x-0' : '-translate-x-full md:translate-x-0'
         }`}
       >
@@ -58,7 +58,7 @@ export default function Home() {
         <ul className="space-y-2">
           {topics.map((topic) => (
             <li
-              key={topic}
+              key={String(topic)}
               className={`cursor-pointer px-2 py-1 rounded hover:bg-gray-200 ${
                 selectedTopic === topic ? 'bg-blue-100 font-bold' : ''
               }`}
@@ -129,4 +129,4 @@ export default function Home() {
       </div>
     </div>
   );
-}
+} 
