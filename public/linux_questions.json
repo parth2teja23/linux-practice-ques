@@ -1,0 +1,2828 @@
+[
+  {
+    "Topic":"Advanced File System Management (LVM on Ubuntu)",
+    "Question":"Which file contains information about LVM volume groups?",
+    "OptionA":"\/etc\/fstab",
+    "OptionB":"\/etc\/lvm.conf",
+    "OptionC":"\/etc\/vg.conf",
+    "OptionD":"\/etc\/volgrp",
+    "Correct":2
+  },
+  {
+    "Topic":"Advanced File System Management (LVM on Ubuntu)",
+    "Question":"What is the purpose of the 'lvreduce' command?",
+    "OptionA":"Remove a logical volume",
+    "OptionB":"Extend a logical volume",
+    "OptionC":"Shrink a logical volume",
+    "OptionD":"Create a volume group",
+    "Correct":3
+  },
+  {
+    "Topic":"Advanced File System Management (LVM on Ubuntu)",
+    "Question":"Which command shows the attributes of logical volumes?",
+    "OptionA":"lvscan",
+    "OptionB":"lvdisplay",
+    "OptionC":"vgdisplay",
+    "OptionD":"pvdisplay",
+    "Correct":2
+  },
+  {
+    "Topic":"Advanced File System Management (LVM on Ubuntu)",
+    "Question":"Which of the following steps is necessary before using a new LVM volume?",
+    "OptionA":"Reboot the system",
+    "OptionB":"Format the volume with a file system",
+    "OptionC":"Mount the physical volume",
+    "OptionD":"Run fsck",
+    "Correct":2
+  },
+  {
+    "Topic":"Backup and Restore (rsync, tar)",
+    "Question":"Which command is used to synchronize files and directories between two locations?",
+    "OptionA":"scp",
+    "OptionB":"cp",
+    "OptionC":"rsync",
+    "OptionD":"tar",
+    "Correct":3
+  },
+  {
+    "Topic":"Backup and Restore (rsync, tar)",
+    "Question":"What does the '-a' option in rsync stand for?",
+    "OptionA":"Archive mode",
+    "OptionB":"All files",
+    "OptionC":"Append mode",
+    "OptionD":"Auto mode",
+    "Correct":1
+  },
+  {
+    "Topic":"Backup and Restore (rsync, tar)",
+    "Question":"Which tar option is used to create an archive?",
+    "OptionA":"-x",
+    "OptionB":"-v",
+    "OptionC":"-c",
+    "OptionD":"-t",
+    "Correct":3
+  },
+  {
+    "Topic":"Backup and Restore (rsync, tar)",
+    "Question":"How do you extract files from a tar archive?",
+    "OptionA":"tar -c",
+    "OptionB":"tar -x",
+    "OptionC":"tar -z",
+    "OptionD":"tar -u",
+    "Correct":2
+  },
+  {
+    "Topic":"Backup and Restore (rsync, tar)",
+    "Question":"Which rsync option is used to show progress during transfer?",
+    "OptionA":"--info",
+    "OptionB":"--verbose",
+    "OptionC":"--progress",
+    "OptionD":"--stats",
+    "Correct":3
+  },
+  {
+    "Topic":"Backup and Restore (rsync, tar)",
+    "Question":"What does the 'z' option in tar do?",
+    "OptionA":"Encrypts the archive",
+    "OptionB":"Splits the archive",
+    "OptionC":"Compresses the archive using gzip",
+    "OptionD":"Appends to archive",
+    "Correct":3
+  },
+  {
+    "Topic":"Backup and Restore (rsync, tar)",
+    "Question":"Which option in rsync preserves symbolic links?",
+    "OptionA":"-S",
+    "OptionB":"-l",
+    "OptionC":"--links",
+    "OptionD":"-H",
+    "Correct":3
+  },
+  {
+    "Topic":"Backup and Restore (rsync, tar)",
+    "Question":"Which command creates a compressed archive using tar and gzip?",
+    "OptionA":"tar -xvf backup.tar",
+    "OptionB":"tar -czf backup.tar.gz \/folder",
+    "OptionC":"tar -tvf backup.tar.gz",
+    "OptionD":"tar -zcf backup \/folder",
+    "Correct":2
+  },
+  {
+    "Topic":"Backup and Restore (rsync, tar)",
+    "Question":"How can you exclude a directory while using rsync?",
+    "OptionA":"--ignore-dir",
+    "OptionB":"--omit",
+    "OptionC":"--exclude",
+    "OptionD":"--no-copy",
+    "Correct":3
+  },
+  {
+    "Topic":"Backup and Restore (rsync, tar)",
+    "Question":"What does the rsync '-n' option do?",
+    "OptionA":"Runs in verbose mode",
+    "OptionB":"Creates a new archive",
+    "OptionC":"Dry run (no changes made)",
+    "OptionD":"Only sync new files",
+    "Correct":3
+  },
+  {
+    "Topic":"File System Troubleshooting (fsck, dmesg)",
+    "Question":"What is the primary purpose of the fsck command in Linux?",
+    "OptionA":"To format a disk",
+    "OptionB":"To check and repair file systems",
+    "OptionC":"To list mounted file systems",
+    "OptionD":"To create new partitions",
+    "Correct":2
+  },
+  {
+    "Topic":"File System Troubleshooting (fsck, dmesg)",
+    "Question":"When should you generally run fsck on a file system?",
+    "OptionA":"When the file system is mounted",
+    "OptionB":"When a disk is full",
+    "OptionC":"When the FS is unmounted or read-only",
+    "OptionD":"After installing new software",
+    "Correct":3
+  },
+  {
+    "Topic":"File System Troubleshooting (fsck, dmesg)",
+    "Question":"What does the dmesg command display?",
+    "OptionA":"System log files",
+    "OptionB":"Network activity logs",
+    "OptionC":"Kernel ring buffer messages",
+    "OptionD":"User command history",
+    "Correct":3
+  },
+  {
+    "Topic":"File System Troubleshooting (fsck, dmesg)",
+    "Question":"What flag should be used with fsck to automatically repair FS without prompting?",
+    "OptionA":"-p",
+    "OptionB":"-f",
+    "OptionC":"-n",
+    "OptionD":"-r",
+    "Correct":1
+  },
+  {
+    "Topic":"File System Troubleshooting (fsck, dmesg)",
+    "Question":"What kind of information is typically found in dmesg output?",
+    "OptionA":"User login attempts",
+    "OptionB":"Kernel boot messages and hardware errors",
+    "OptionC":"Web server access logs",
+    "OptionD":"System resource usage",
+    "Correct":2
+  },
+  {
+    "Topic":"File System Troubleshooting (fsck, dmesg)",
+    "Question":"Which file system is supported by fsck.ext4?",
+    "OptionA":"FAT32",
+    "OptionB":"XFS",
+    "OptionC":"EXT4",
+    "OptionD":"NTFS",
+    "Correct":3
+  },
+  {
+    "Topic":"File System Troubleshooting (fsck, dmesg)",
+    "Question":"What does fsck -n do?",
+    "OptionA":"Repairs the file system",
+    "OptionB":"Performs a dry run without making changes",
+    "OptionC":"Forces checking",
+    "OptionD":"Automatically fixes errors",
+    "Correct":2
+  },
+  {
+    "Topic":"File System Troubleshooting (fsck, dmesg)",
+    "Question":"What is a common use of `dmesg",
+    "OptionA":"Check for software updates",
+    "OptionB":"Search logs for user activity",
+    "OptionC":"Look for hardware or disk errors",
+    "OptionD":"View cron job outputs",
+    "Correct":3
+  },
+  {
+    "Topic":"File System Troubleshooting (fsck, dmesg)",
+    "Question":"Command to check an unmounted EXT4 file system?",
+    "OptionA":"fsck \/dev\/sda1",
+    "OptionB":"dmesg \/mnt\/sda1",
+    "OptionC":"mount -t ext4 \/dev\/sda1",
+    "OptionD":"df -h \/dev\/sda1",
+    "Correct":1
+  },
+  {
+    "Topic":"File System Troubleshooting (fsck, dmesg)",
+    "Question":"What is the risk of running fsck on a mounted file system?",
+    "OptionA":"No risk at all",
+    "OptionB":"Increases read\/write speed",
+    "OptionC":"Can cause FS corruption",
+    "OptionD":"Automatically unmounts FS",
+    "Correct":3
+  },
+  {
+    "Topic":"Network Configuration & Management",
+    "Question":"What is the main purpose of netplan in Ubuntu?",
+    "OptionA":"Manage user accounts",
+    "OptionB":"Configure network interfaces",
+    "OptionC":"Scan for Wi-Fi networks",
+    "OptionD":"Monitor network traffic",
+    "Correct":2
+  },
+  {
+    "Topic":"Network Configuration & Management",
+    "Question":"Which file format does netplan use for configuration?",
+    "OptionA":"JSON",
+    "OptionB":"XML",
+    "OptionC":"YAML",
+    "OptionD":"INI",
+    "Correct":3
+  },
+  {
+    "Topic":"Network Configuration & Management",
+    "Question":"What command is used to apply changes in a netplan configuration file?",
+    "OptionA":"netplan start",
+    "OptionB":"netplan apply",
+    "OptionC":"netplan enable",
+    "OptionD":"netplan set",
+    "Correct":2
+  },
+  {
+    "Topic":"Network Configuration & Management",
+    "Question":"Which backend does netplan typically use on desktop Ubuntu systems?",
+    "OptionA":"systemd-networkd",
+    "OptionB":"ifupdown",
+    "OptionC":"NetworkManager",
+    "OptionD":"resolvconf",
+    "Correct":3
+  },
+  {
+    "Topic":"Network Configuration & Management",
+    "Question":"What does the nmcli command do?",
+    "OptionA":"Configures Apache",
+    "OptionB":"Manages firewall rules",
+    "OptionC":"Manages NetworkManager via CLI",
+    "OptionD":"Views kernel logs",
+    "Correct":3
+  },
+  {
+    "Topic":"Network Configuration & Management",
+    "Question":"How can you show active network connections using nmcli?",
+    "OptionA":"nmcli dev show",
+    "OptionB":"nmcli con mod",
+    "OptionC":"nmcli net start",
+    "OptionD":"nmcli con edit",
+    "Correct":1
+  },
+  {
+    "Topic":"Network Configuration & Management",
+    "Question":"In a netplan config, what key defines the interface name?",
+    "OptionA":"interface",
+    "OptionB":"id",
+    "OptionC":"eth",
+    "OptionD":"ethernets",
+    "Correct":4
+  },
+  {
+    "Topic":"Network Configuration & Management",
+    "Question":"Which nmcli command brings up a network interface?",
+    "OptionA":"nmcli con down <name>",
+    "OptionB":"nmcli dev status",
+    "OptionC":"nmcli con up <name>",
+    "OptionD":"nmcli net reload",
+    "Correct":3
+  },
+  {
+    "Topic":"Network Configuration & Management",
+    "Question":"What is the default location for netplan configuration files in Ubuntu?",
+    "OptionA":"\/etc\/network\/interfaces",
+    "OptionB":"\/etc\/netplan\/",
+    "OptionC":"\/etc\/sysconfig\/network-scripts",
+    "OptionD":"\/etc\/NetworkManager\/",
+    "Correct":2
+  },
+  {
+    "Topic":"Network Configuration & Management",
+    "Question":"What does nmcli dev disconnect do?",
+    "OptionA":"Deletes the device",
+    "OptionB":"Removes all saved connections",
+    "OptionC":"Disconnects a device from the network",
+    "OptionD":"Formats the device",
+    "Correct":3
+  },
+  {
+    "Topic":"Firewall & Troubleshooting Tools",
+    "Question":"What is the primary function of ufw in Ubuntu?",
+    "OptionA":"Manage user sessions",
+    "OptionB":"Control access to network ports",
+    "OptionC":"Analyze disk usage",
+    "OptionD":"Create user accounts",
+    "Correct":2
+  },
+  {
+    "Topic":"Firewall & Troubleshooting Tools",
+    "Question":"Which command enables the UFW firewall?",
+    "OptionA":"ufw allow",
+    "OptionB":"ufw enable",
+    "OptionC":"ufw on",
+    "OptionD":"ufw start",
+    "Correct":2
+  },
+  {
+    "Topic":"Firewall & Troubleshooting Tools",
+    "Question":"What does ufw status show?",
+    "OptionA":"The version of the Linux kernel",
+    "OptionB":"Running processes",
+    "OptionC":"Current firewall rules and status",
+    "OptionD":"Logged-in users",
+    "Correct":3
+  },
+  {
+    "Topic":"Firewall & Troubleshooting Tools",
+    "Question":"Which UFW rule allows incoming SSH connections?",
+    "OptionA":"ufw allow http",
+    "OptionB":"ufw allow ssh",
+    "OptionC":"ufw enable ssh",
+    "OptionD":"ufw allow tcp 25",
+    "Correct":2
+  },
+  {
+    "Topic":"Firewall & Troubleshooting Tools",
+    "Question":"What does the command ufw deny 80 do?",
+    "OptionA":"Opens port 80",
+    "OptionB":"Denies access to port 80",
+    "OptionC":"Restarts the firewall",
+    "OptionD":"Blocks all outgoing connections",
+    "Correct":2
+  },
+  {
+    "Topic":"Firewall & Troubleshooting Tools",
+    "Question":"What is the function of tcpdump?",
+    "OptionA":"Modify IP settings",
+    "OptionB":"Capture and analyze network packets",
+    "OptionC":"Scan for Wi-Fi networks",
+    "OptionD":"Configure firewalls",
+    "Correct":2
+  },
+  {
+    "Topic":"Firewall & Troubleshooting Tools",
+    "Question":"Which flag in tcpdump specifies the interface to capture on?",
+    "OptionA":"-p",
+    "OptionB":"-v",
+    "OptionC":"-i",
+    "OptionD":"-t",
+    "Correct":3
+  },
+  {
+    "Topic":"Firewall & Troubleshooting Tools",
+    "Question":"What is Wireshark primarily used for?",
+    "OptionA":"Creating IP addresses",
+    "OptionB":"Real-time network traffic monitoring & analysis",
+    "OptionC":"Formatting file systems",
+    "OptionD":"Controlling USB devices",
+    "Correct":2
+  },
+  {
+    "Topic":"Firewall & Troubleshooting Tools",
+    "Question":"Which tool provides a graphical interface: tcpdump or wireshark?",
+    "OptionA":"tcpdump",
+    "OptionB":"netstat",
+    "OptionC":"wireshark",
+    "OptionD":"nmap",
+    "Correct":3
+  },
+  {
+    "Topic":"Firewall & Troubleshooting Tools",
+    "Question":"What does tcpdump -w capture.pcap do?",
+    "OptionA":"Plays audio",
+    "OptionB":"Writes captured packets to a file",
+    "OptionC":"Downloads pcap files",
+    "OptionD":"Sends test packets",
+    "Correct":2
+  },
+  {
+    "Topic":"System Monitoring & Performance Tuning",
+    "Question":"What does the top command display?",
+    "OptionA":"File system usage",
+    "OptionB":"Running kernel modules",
+    "OptionC":"Real-time system processes and resource usage",
+    "OptionD":"Mounted file systems",
+    "Correct":3
+  },
+  {
+    "Topic":"System Monitoring & Performance Tuning",
+    "Question":"What is the advantage of htop over top?",
+    "OptionA":"Supports USB monitoring",
+    "OptionB":"Displays graphical interface and navigation",
+    "OptionC":"Works in recovery mode only",
+    "OptionD":"Only shows disk usage",
+    "Correct":2
+  },
+  {
+    "Topic":"System Monitoring & Performance Tuning",
+    "Question":"What does iostat monitor?",
+    "OptionA":"CPU and I\/O statistics",
+    "OptionB":"Running users",
+    "OptionC":"DNS traffic",
+    "OptionD":"Network devices",
+    "Correct":1
+  },
+  {
+    "Topic":"System Monitoring & Performance Tuning",
+    "Question":"Which tool reports information about memory and CPU usage efficiently?",
+    "OptionA":"tcpdump",
+    "OptionB":"vmstat",
+    "OptionC":"iptables",
+    "OptionD":"dig",
+    "Correct":2
+  },
+  {
+    "Topic":"System Monitoring & Performance Tuning",
+    "Question":"What is the purpose of sysctl in Linux?",
+    "OptionA":"Set permissions",
+    "OptionB":"Tune kernel parameters at runtime",
+    "OptionC":"Launch services",
+    "OptionD":"Monitor user activity",
+    "Correct":2
+  },
+  {
+    "Topic":"System Monitoring & Performance Tuning",
+    "Question":"Which file is commonly used with sysctl for persistent settings?",
+    "OptionA":"\/etc\/hosts",
+    "OptionB":"\/etc\/sysconfig\/sysctl.conf",
+    "OptionC":"\/etc\/sysctl.conf",
+    "OptionD":"\/etc\/profile",
+    "Correct":3
+  },
+  {
+    "Topic":"System Monitoring & Performance Tuning",
+    "Question":"What is tuned used for?",
+    "OptionA":"Wireless configuration",
+    "OptionB":"User management",
+    "OptionC":"Performance tuning profiles",
+    "OptionD":"Backup scheduling",
+    "Correct":3
+  },
+  {
+    "Topic":"System Monitoring & Performance Tuning",
+    "Question":"What does journalctl access in systemd-based systems?",
+    "OptionA":"Bash history",
+    "OptionB":"Kernel logs",
+    "OptionC":"System logs from journal daemon",
+    "OptionD":"BIOS settings",
+    "Correct":3
+  },
+  {
+    "Topic":"System Monitoring & Performance Tuning",
+    "Question":"What does syslog provide on traditional Linux systems?",
+    "OptionA":"Real-time memory usage",
+    "OptionB":"Network logs only",
+    "OptionC":"Centralized logging system",
+    "OptionD":"Task scheduling",
+    "Correct":3
+  },
+  {
+    "Topic":"System Monitoring & Performance Tuning",
+    "Question":"What option in htop lets you kill a process?",
+    "OptionA":"F1",
+    "OptionB":"F2",
+    "OptionC":"F9",
+    "OptionD":"F10",
+    "Correct":3
+  },
+  {
+    "Topic":"Security Basics",
+    "Question":"What is the default port for SSH on Linux systems?",
+    "OptionA":22,
+    "OptionB":80,
+    "OptionC":443,
+    "OptionD":21,
+    "Correct":1
+  },
+  {
+    "Topic":"Security Basics",
+    "Question":"What does fail2ban primarily protect against?",
+    "OptionA":"Brute-force attacks",
+    "OptionB":"Data loss",
+    "OptionC":"System reboots",
+    "OptionD":"File corruption",
+    "Correct":1
+  },
+  {
+    "Topic":"Security Basics",
+    "Question":"Which command is used to start the SSH service on most Linux systems?",
+    "OptionA":"service ssh run",
+    "OptionB":"start ssh",
+    "OptionC":"systemctl start ssh",
+    "OptionD":"ssh -start",
+    "Correct":3
+  },
+  {
+    "Topic":"Security Basics",
+    "Question":"What is a strong practice to secure SSH access?",
+    "OptionA":"Allow root login",
+    "OptionB":"Use public\/private key authentication",
+    "OptionC":"Open SSH to all IPs",
+    "OptionD":"Use the default password",
+    "Correct":2
+  },
+  {
+    "Topic":"Security Basics",
+    "Question":"What does UFW stand for in Ubuntu?",
+    "OptionA":"User Firewall",
+    "OptionB":"Unified Firewall",
+    "OptionC":"Uncomplicated Firewall",
+    "OptionD":"Ubuntu Firewall",
+    "Correct":3
+  },
+  {
+    "Topic":"Security Basics",
+    "Question":"Which ufw command blocks an IP address?",
+    "OptionA":"ufw enable",
+    "OptionB":"ufw block ip",
+    "OptionC":"ufw deny from <IP>",
+    "OptionD":"ufw shutdown",
+    "Correct":3
+  },
+  {
+    "Topic":"Security Basics",
+    "Question":"Which configuration file controls SSH server settings?",
+    "OptionA":"\/etc\/ssh\/sshd_config",
+    "OptionB":"\/etc\/ssh\/ssh_client.conf",
+    "OptionC":"\/etc\/systemd\/ssh.conf",
+    "OptionD":"\/etc\/security\/ssh.conf",
+    "Correct":1
+  },
+  {
+    "Topic":"Security Basics",
+    "Question":"What does fail2ban use to determine banned IPs?",
+    "OptionA":"DNS logs",
+    "OptionB":"UFW configuration",
+    "OptionC":"Log files with regex rules",
+    "OptionD":"CPU usage logs",
+    "Correct":3
+  },
+  {
+    "Topic":"Security Basics",
+    "Question":"Which of the following is a Linux security best practice?",
+    "OptionA":"Use weak passwords",
+    "OptionB":"Disable firewalls",
+    "OptionC":"Disable automatic updates",
+    "OptionD":"Apply least privilege principle",
+    "Correct":4
+  },
+  {
+    "Topic":"Security Basics",
+    "Question":"What is the purpose of PermitRootLogin no in sshd_config?",
+    "OptionA":"Allows passwordless login",
+    "OptionB":"Denies root login over SSH",
+    "OptionC":"Enables UFW",
+    "OptionD":"Enables logging over SSH",
+    "Correct":2
+  },
+  {
+    "Topic":"Shell Scripting (Functions)",
+    "Question":"What keyword is used to define a function in a bash script?",
+    "OptionA":"function",
+    "OptionB":"define",
+    "OptionC":"proc",
+    "OptionD":"method",
+    "Correct":1
+  },
+  {
+    "Topic":"Shell Scripting (Functions)",
+    "Question":"How do you call a function named greet in bash?",
+    "OptionA":"run greet()",
+    "OptionB":"call greet",
+    "OptionC":"greet",
+    "OptionD":"execute greet()",
+    "Correct":3
+  },
+  {
+    "Topic":"Shell Scripting (Functions)",
+    "Question":"Which syntax is valid for defining a function in bash?",
+    "OptionA":"func() { echo Hello; }",
+    "OptionB":"function = func() => {}",
+    "OptionC":"def func: echo Hello",
+    "OptionD":"func: echo Hello end",
+    "Correct":1
+  },
+  {
+    "Topic":"Shell Scripting (String Manipulation)",
+    "Question":"What does ${#var} return in bash?",
+    "OptionA":"First character of var",
+    "OptionB":"Last character of var",
+    "OptionC":"Length of var",
+    "OptionD":"Number of words in var",
+    "Correct":3
+  },
+  {
+    "Topic":"Shell Scripting (String Manipulation)",
+    "Question":"What is the output of ${var:2:3} if var=\"abcdefg\"?",
+    "OptionA":"bcd",
+    "OptionB":"cde",
+    "OptionC":"def",
+    "OptionD":"abc",
+    "Correct":2
+  },
+  {
+    "Topic":"Shell Scripting (String Manipulation)",
+    "Question":"Which syntax removes the shortest match from the beginning of a string?",
+    "OptionA":"${var#pattern}",
+    "OptionB":"${var%pattern}",
+    "OptionC":"${var%%pattern}",
+    "OptionD":"${var##pattern}",
+    "Correct":1
+  },
+  {
+    "Topic":"Shell Scripting (Functions)",
+    "Question":"How can you return a value from a function in bash?",
+    "OptionA":"Use return followed by a string",
+    "OptionB":"Use echo and capture with command substitution",
+    "OptionC":"Use yield",
+    "OptionD":"Use out= keyword",
+    "Correct":2
+  },
+  {
+    "Topic":"Shell Scripting (String Manipulation)",
+    "Question":"What does ${var%%.*} do if var=\"file.name.txt\"?",
+    "OptionA":"Removes extension",
+    "OptionB":"Extracts only extension",
+    "OptionC":"Replaces dots with spaces",
+    "OptionD":"Deletes full filename",
+    "Correct":1
+  },
+  {
+    "Topic":"Shell Scripting (Functions)",
+    "Question":"How can you pass arguments to a bash function?",
+    "OptionA":"Using global variables",
+    "OptionB":"Use read inside the function",
+    "OptionC":"Using $1, $2, etc.",
+    "OptionD":"Declare in a file header",
+    "Correct":3
+  },
+  {
+    "Topic":"Shell Scripting (String Manipulation)",
+    "Question":"Which command converts a string to lowercase in bash?",
+    "OptionA":"tr 'A-Z' 'a-z'",
+    "OptionB":"tolower()",
+    "OptionC":"awk '{lower($0)}'",
+    "OptionD":"echo ${str,,}",
+    "Correct":4
+  },
+  {
+    "Topic":"Task Automation (cron)",
+    "Question":"Which file lists user cron jobs in Linux?",
+    "OptionA":"\/etc\/crontab",
+    "OptionB":"\/etc\/passwd",
+    "OptionC":"\/etc\/init.d\/cron",
+    "OptionD":"\/var\/log\/cron",
+    "Correct":1
+  },
+  {
+    "Topic":"Task Automation (cron)",
+    "Question":"What does the following cron syntax mean: 0 2 * * *?",
+    "OptionA":"Run every 2 hours",
+    "OptionB":"Run daily at 2:00 AM",
+    "OptionC":"Run every 2 minutes",
+    "OptionD":"Run weekly at 2:00 AM",
+    "Correct":2
+  },
+  {
+    "Topic":"Task Automation (at)",
+    "Question":"What is the at command used for in Linux?",
+    "OptionA":"Schedule recurring tasks",
+    "OptionB":"Monitor running services",
+    "OptionC":"Schedule one-time future tasks",
+    "OptionD":"Send alerts to users",
+    "Correct":3
+  },
+  {
+    "Topic":"Task Automation (at)",
+    "Question":"Which command lists jobs scheduled by at?",
+    "OptionA":"atq",
+    "OptionB":"ats",
+    "OptionC":"crontab -l",
+    "OptionD":"jobs -a",
+    "Correct":1
+  },
+  {
+    "Topic":"System Services (systemd)",
+    "Question":"What does systemctl start nginx do?",
+    "OptionA":"Reboots the system",
+    "OptionB":"Starts the nginx service",
+    "OptionC":"Installs nginx",
+    "OptionD":"Lists nginx dependencies",
+    "Correct":2
+  },
+  {
+    "Topic":"System Services (systemctl)",
+    "Question":"What is the purpose of systemctl enable?",
+    "OptionA":"Run service only once",
+    "OptionB":"Start service immediately",
+    "OptionC":"Enable service at boot",
+    "OptionD":"Schedule service for shutdown",
+    "Correct":3
+  },
+  {
+    "Topic":"Scripting Best Practices",
+    "Question":"Which of the following is a good shell scripting practice?",
+    "OptionA":"Avoid comments",
+    "OptionB":"Hardcode all file paths",
+    "OptionC":"Check exit status of commands",
+    "OptionD":"Ignore input validation",
+    "Correct":3
+  },
+  {
+    "Topic":"System Services (systemctl)",
+    "Question":"What does systemctl status display?",
+    "OptionA":"Active user sessions",
+    "OptionB":"Running background jobs",
+    "OptionC":"Current status of a service",
+    "OptionD":"Network usage statistics",
+    "Correct":3
+  },
+  {
+    "Topic":"Task Automation (cron)",
+    "Question":"Which directory holds cron job definitions for specific intervals?",
+    "OptionA":"\/etc\/cron.conf",
+    "OptionB":"\/var\/spool\/cron",
+    "OptionC":"\/etc\/cron.d",
+    "OptionD":"\/opt\/cron.daily",
+    "Correct":3
+  },
+  {
+    "Topic":"System Services (systemctl)",
+    "Question":"What command is used to reload systemd daemon configs?",
+    "OptionA":"systemctl reread",
+    "OptionB":"systemctl daemon-reload",
+    "OptionC":"systemctl refresh",
+    "OptionD":"systemctl update",
+    "Correct":2
+  },
+  {
+    "Topic":"Virtualization (KVM)",
+    "Question":"What is the primary purpose of KVM in Linux?",
+    "OptionA":"Filesystem backup",
+    "OptionB":"Kernel-based Virtualization",
+    "OptionC":"Log monitoring",
+    "OptionD":"Memory encryption",
+    "Correct":2
+  },
+  {
+    "Topic":"Virtualization (KVM)",
+    "Question":"Which package provides the KVM module on Ubuntu?",
+    "OptionA":"qemu-kvm",
+    "OptionB":"docker",
+    "OptionC":"libguestfs",
+    "OptionD":"kvm-switch",
+    "Correct":1
+  },
+  {
+    "Topic":"Virtualization (KVM)",
+    "Question":"Which command verifies if your system supports virtualization?",
+    "OptionA":"lscpu",
+    "OptionB":"vmstat",
+    "OptionC":"virt-check",
+    "OptionD":"lsmod",
+    "Correct":1
+  },
+  {
+    "Topic":"Containers (Docker)",
+    "Question":"What command lists all Docker containers?",
+    "OptionA":"docker ps -a",
+    "OptionB":"docker list",
+    "OptionC":"docker show",
+    "OptionD":"docker info",
+    "Correct":1
+  },
+  {
+    "Topic":"Containers (Docker)",
+    "Question":"What is a Docker image?",
+    "OptionA":"A running instance of a container",
+    "OptionB":"A blueprint to create containers",
+    "OptionC":"A virtual machine",
+    "OptionD":"A backup of system logs",
+    "Correct":2
+  },
+  {
+    "Topic":"Containers (Docker)",
+    "Question":"What does docker exec -it container bash do?",
+    "OptionA":"Starts a new container",
+    "OptionB":"Deletes a container",
+    "OptionC":"Attaches to container interactively via bash",
+    "OptionD":"Restarts the container",
+    "Correct":3
+  },
+  {
+    "Topic":"Containers (LXC\/LXD)",
+    "Question":"What is the primary difference between LXC and LXD?",
+    "OptionA":"LXD is the kernel module",
+    "OptionB":"LXC is a VM hypervisor",
+    "OptionC":"LXD is a system container manager over LXC",
+    "OptionD":"LXC is a GUI interface",
+    "Correct":3
+  },
+  {
+    "Topic":"Containers (LXC\/LXD)",
+    "Question":"Which command launches a new LXD container?",
+    "OptionA":"lxc-create",
+    "OptionB":"lxd-run",
+    "OptionC":"lxc launch",
+    "OptionD":"lxd init",
+    "Correct":3
+  },
+  {
+    "Topic":"Containers (LXC\/LXD)",
+    "Question":"What is the default networking mode for LXD containers?",
+    "OptionA":"Bridged",
+    "OptionB":"Host-only",
+    "OptionC":"NAT",
+    "OptionD":"VPN",
+    "Correct":3
+  },
+  {
+    "Topic":"Containers (Docker\/LXC)",
+    "Question":"Which tool provides lightweight system containers with near-VM isolation?",
+    "OptionA":"VirtualBox",
+    "OptionB":"VMware",
+    "OptionC":"LXC",
+    "OptionD":"rsync",
+    "Correct":3
+  },
+  {
+    "Topic":"MicroK8s \/ Kubernetes",
+    "Question":"What is MicroK8s?",
+    "OptionA":"A full OS distribution",
+    "OptionB":"A container image format",
+    "OptionC":"A lightweight Kubernetes distribution",
+    "OptionD":"A virtual firewall",
+    "Correct":3
+  },
+  {
+    "Topic":"MicroK8s \/ Kubernetes",
+    "Question":"What command lists enabled MicroK8s addons?",
+    "OptionA":"microk8s show",
+    "OptionB":"microk8s status",
+    "OptionC":"microk8s addons",
+    "OptionD":"microk8s config",
+    "Correct":2
+  },
+  {
+    "Topic":"MicroK8s \/ Kubernetes",
+    "Question":"Which MicroK8s command is used to start Kubernetes dashboard?",
+    "OptionA":"microk8s launch dashboard",
+    "OptionB":"kubectl dashboard",
+    "OptionC":"microk8s enable dashboard",
+    "OptionD":"microk8s start dash",
+    "Correct":3
+  },
+  {
+    "Topic":"MicroK8s \/ Kubernetes",
+    "Question":"Which CLI tool is used to interact with Kubernetes clusters?",
+    "OptionA":"docker",
+    "OptionB":"kubectl",
+    "OptionC":"k8sctl",
+    "OptionD":"kubeadmin",
+    "Correct":2
+  },
+  {
+    "Topic":"MicroK8s \/ Kubernetes",
+    "Question":"What is a pod in Kubernetes?",
+    "OptionA":"A user login shell",
+    "OptionB":"A backup file",
+    "OptionC":"A group of one or more containers",
+    "OptionD":"A configuration rule",
+    "Correct":3
+  },
+  {
+    "Topic":"Firewall \/ UFW",
+    "Question":"How do you allow port 8080 using UFW?",
+    "OptionA":"ufw allow 8080",
+    "OptionB":"ufw open port 8080",
+    "OptionC":"ufw accept 8080",
+    "OptionD":"ufw permit 8080",
+    "Correct":1
+  },
+  {
+    "Topic":"Firewall \/ UFW",
+    "Question":"What command disables UFW?",
+    "OptionA":"ufw disable",
+    "OptionB":"ufw stop",
+    "OptionC":"ufw shutdown",
+    "OptionD":"ufw kill",
+    "Correct":1
+  },
+  {
+    "Topic":"AppArmor",
+    "Question":"What is the function of AppArmor in Linux?",
+    "OptionA":"Disk encryption",
+    "OptionB":"Process-level access control",
+    "OptionC":"Managing disk partitions",
+    "OptionD":"Installing packages",
+    "Correct":2
+  },
+  {
+    "Topic":"AppArmor",
+    "Question":"Which command shows loaded AppArmor profiles?",
+    "OptionA":"apparmor-show",
+    "OptionB":"aa-status",
+    "OptionC":"app-status",
+    "OptionD":"aa-log",
+    "Correct":2
+  },
+  {
+    "Topic":"AppArmor",
+    "Question":"What happens if a process violates an AppArmor profile in enforce mode?",
+    "OptionA":"It's allowed but logged",
+    "OptionB":"The system reboots",
+    "OptionC":"It's denied and logged",
+    "OptionD":"Nothing happens",
+    "Correct":3
+  },
+  {
+    "Topic":"Basic Networking",
+    "Question":"What does DNS stand for?",
+    "OptionA":"Domain Name System",
+    "OptionB":"Dynamic Name Server",
+    "OptionC":"Data Network Service",
+    "OptionD":"Domain Network System",
+    "Correct":1
+  },
+  {
+    "Topic":"Shell Scripting Basics",
+    "Question":"Which symbol is used for piping in Linux?",
+    "OptionA":">",
+    "OptionB":"|",
+    "OptionC":">>",
+    "OptionD":"<",
+    "Correct":2
+  },
+  {
+    "Topic":"User and Group Management",
+    "Question":"Which file stores user account information?",
+    "OptionA":"\/etc\/passwd",
+    "OptionB":"\/etc\/group",
+    "OptionC":"\/etc\/shadow",
+    "OptionD":"\/etc\/hosts",
+    "Correct":1
+  },
+  {
+    "Topic":"Shell Scripting Basics",
+    "Question":"Which of the following options is used with echo to disable the newline character at the end of the output?",
+    "OptionA":"-n",
+    "OptionB":"-e",
+    "OptionC":"-s",
+    "OptionD":"-l",
+    "Correct":1
+  },
+  {
+    "Topic":"File Systems",
+    "Question":"Which file contains system log messages in Linux?",
+    "OptionA":"\/var\/log\/messages",
+    "OptionB":"\/etc\/log\/system.log",
+    "OptionC":"\/log\/syslog",
+    "OptionD":"\/var\/system\/messages",
+    "Correct":1
+  },
+  {
+    "Topic":"Package Management",
+    "Question":"Which command is used to update the package repository and install software in Ubuntu?",
+    "OptionA":"yum",
+    "OptionB":"apt-get",
+    "OptionC":"dnf",
+    "OptionD":"installpkg",
+    "Correct":2
+  },
+  {
+    "Topic":"Shell Scripting Basics",
+    "Question":"What is the purpose of the `grep` command in shell scripting?",
+    "OptionA":"To define variables",
+    "OptionB":"To search for patterns in files",
+    "OptionC":"To redirect output",
+    "OptionD":"To loop through items",
+    "Correct":2
+  },
+  {
+    "Topic":"Basic Commands",
+    "Question":"To recursively copy a directory and its contents, preserving ownership and permissions, which command should you use?",
+    "OptionA":"cp -pR",
+    "OptionB":"cp -a",
+    "OptionC":"cp -p",
+    "OptionD":"cp -rO",
+    "Correct":2
+  },
+  {
+    "Topic":"Navigating the file system",
+    "Question":"What is the primary purpose of the `ls` command in Linux?",
+    "OptionA":"List system hardware information",
+    "OptionB":"Display the contents of a directory",
+    "OptionC":"Create a new directory",
+    "OptionD":"List running processes",
+    "Correct":2
+  },
+  {
+    "Topic":"Shell Scripting Basics",
+    "Question":"What is the extension of a shell script file?",
+    "OptionA":".bash",
+    "OptionB":".sh",
+    "OptionC":".script",
+    "OptionD":".txt",
+    "Correct":2
+  },
+  {
+    "Topic":"Navigating the file system",
+    "Question":"You execute the `ls -S` command. What does the `-S` flag do in this context?",
+    "OptionA":"Lists files and directories in order of file size, largest first.",
+    "OptionB":"Shows hidden files and directories.",
+    "OptionC":"Sorts files and directories by file type.",
+    "OptionD":"An error, as `-S` is an invalid option for `ls`.",
+    "Correct":1
+  },
+  {
+    "Topic":"Shell Scripting Basics",
+    "Question":"What is the correct syntax to define a variable in shell scripting?",
+    "OptionA":"var=value",
+    "OptionB":"var := value",
+    "OptionC":"var = value",
+    "OptionD":"set var = value",
+    "Correct":1
+  },
+  {
+    "Topic":"Navigating the file system",
+    "Question":"What does the \"\/dev\" directory in the Linux file system hierarchy contain?",
+    "OptionA":"User home directories",
+    "OptionB":"Device files",
+    "OptionC":"System binaries",
+    "OptionD":"Configuration files",
+    "Correct":2
+  },
+  {
+    "Topic":"Basic Command Line Skills:",
+    "Question":"Which command in Linux is used to display the first few lines of a text file?",
+    "OptionA":"head",
+    "OptionB":"tail",
+    "OptionC":"cat",
+    "OptionD":"more",
+    "Correct":1
+  },
+  {
+    "Topic":"File permissions and ownership",
+    "Question":"If you run `chmod 755 file.txt`, what is the permission set for `file.txt`?",
+    "OptionA":"-rwxr-xr-x",
+    "OptionB":"-rw-r--r--",
+    "OptionC":"-rwx------",
+    "OptionD":"-rw-------",
+    "Correct":1
+  },
+  {
+    "Topic":"Basic Command Line Skills:",
+    "Question":"You run the `df -i` command. What does the `-i` flag indicate?",
+    "OptionA":"Displays information about inodes.",
+    "OptionB":"Shows inode numbers for files.",
+    "OptionC":"Lists the largest files on the filesystem.",
+    "OptionD":"An error, as `-i` is an invalid option for `df`.",
+    "Correct":1
+  },
+  {
+    "Topic":"File Systems & Disk Management",
+    "Question":"Which file system is typically used for USB drives?",
+    "OptionA":"fat32",
+    "OptionB":"ext4",
+    "OptionC":"xfs",
+    "OptionD":"btrfs",
+    "Correct":1
+  },
+  {
+    "Topic":"File Systems & Disk Management",
+    "Question":"Which command is used to check disk I\/O performance?",
+    "OptionA":"iostat",
+    "OptionB":"df",
+    "OptionC":"fdisk",
+    "OptionD":"du",
+    "Correct":1
+  },
+  {
+    "Topic":"File Creation ",
+    "Question":"Which command in nano is used to save changes?",
+    "OptionA":"Ctrl + S",
+    "OptionB":"Ctrl + X",
+    "OptionC":"Ctrl + Z",
+    "OptionD":"Ctrl + C",
+    "Correct":2
+  },
+  {
+    "Topic":"Process Management",
+    "Question":"If a process becomes unresponsive, what command can you use to terminate it?",
+    "OptionA":"kill",
+    "OptionB":"stop",
+    "OptionC":"terminate",
+    "OptionD":"endprocess",
+    "Correct":1
+  },
+  {
+    "Topic":"File Systems and Disk Management",
+    "Question":"What is the command to mount a file system?",
+    "OptionA":"mount",
+    "OptionB":"umount",
+    "OptionC":"fdisk",
+    "OptionD":"parted",
+    "Correct":1
+  },
+  {
+    "Topic":"File Systems and Disk Management",
+    "Question":"Which command is used to resize a partition?",
+    "OptionA":"mount",
+    "OptionB":"fdisk",
+    "OptionC":"mkfs",
+    "OptionD":"resize2fs",
+    "Correct":4
+  },
+  {
+    "Topic":"File Systems and Disk Management",
+    "Question":"What is the purpose of the `xfs` file system?",
+    "OptionA":"To provide high performance",
+    "OptionB":"To encrypt files",
+    "OptionC":"To compress files",
+    "OptionD":"To manage partitions",
+    "Correct":1
+  },
+  {
+    "Topic":"Shell Scripting Basics",
+    "Question":"What is the purpose of the `sed` command in shell scripting?",
+    "OptionA":"To loop through items",
+    "OptionB":"To define variables",
+    "OptionC":"To redirect output",
+    "OptionD":"To perform text transformations",
+    "Correct":4
+  },
+  {
+    "Topic":"Shell Scripting Basics",
+    "Question":"What does the `$$` symbol represent in a shell script",
+    "OptionA":"The exit status of the last command",
+    "OptionB":"The process ID of the current script.",
+    "OptionC":"The current working directory",
+    "OptionD":"The number of command-line arguments",
+    "Correct":2
+  },
+  {
+    "Topic":"Basic Command Line Skills",
+    "Question":"What does the `head -n 5` command do?",
+    "OptionA":"Displays the first 5 lines of a file",
+    "OptionB":"Displays the last 5 lines",
+    "OptionC":"Displays 5 lines in reverse order",
+    "OptionD":"Displays lines containing '5'",
+    "Correct":1
+  },
+  {
+    "Topic":"Package Management",
+    "Question":"How do you list all installed packages using APT?",
+    "OptionA":"apt-get show",
+    "OptionB":"apt list --installed",
+    "OptionC":"apt-get installed",
+    "OptionD":"dpkg -show",
+    "Correct":2
+  },
+  {
+    "Topic":"Navigating the file system",
+    "Question":"In Linux, what is the purpose of the `\/mnt` directory?",
+    "OptionA":"Storing user home directories",
+    "OptionB":"Mounting temporary filesystems",
+    "OptionC":"Managing user groups",
+    "OptionD":"System backups",
+    "Correct":2
+  },
+  {
+    "Topic":"File Systems & Disk Management",
+    "Question":"Which command is used to mount a file system in Linux?",
+    "OptionA":"mount",
+    "OptionB":"umount",
+    "OptionC":"df",
+    "OptionD":"du",
+    "Correct":1
+  },
+  {
+    "Topic":"Shell Scripting I\/O",
+    "Question":"Which command is used to paginate output?",
+    "OptionA":"less",
+    "OptionB":"cat",
+    "OptionC":"head",
+    "OptionD":"echo -p",
+    "Correct":1
+  },
+  {
+    "Topic":"Shell Scripting Basics",
+    "Question":"How can you make the script accept a number as a command-line argument instead of prompting the user?",
+    "OptionA":"Replace `read number` with `number=$1",
+    "OptionB":"Add a new line `number=$1` before the `read` statement",
+    "OptionC":"Use the command `set number=$1` before the `if` statement",
+    "OptionD":"Replace `echo \"Enter a number:\"` with `number=$1",
+    "Correct":1
+  },
+  {
+    "Topic":"User and Group Management",
+    "Question":"What is the purpose of the `pam_tally2` module?",
+    "OptionA":"To delete a user",
+    "OptionB":"To manage login attempts",
+    "OptionC":"To change ownership",
+    "OptionD":"To create a group",
+    "Correct":2
+  },
+  {
+    "Topic":"User and Group Management",
+    "Question":"Which command is used to set a user's password expiration date?",
+    "OptionA":"chpasswd",
+    "OptionB":"usermod",
+    "OptionC":"passwd",
+    "OptionD":"chage -E",
+    "Correct":4
+  },
+  {
+    "Topic":"Navigating the file system",
+    "Question":"In terms of file path structure, Linux uses:",
+    "OptionA":"Backslashes",
+    "OptionB":"Drive letters (C:, D:)",
+    "OptionC":"Forward slashes (\/)",
+    "OptionD":"Colons (:)",
+    "Correct":3
+  },
+  {
+    "Topic":"Basic process management",
+    "Question":"What is the purpose of the `top` command?",
+    "OptionA":"Lists top-level directories",
+    "OptionB":"Shows real-time process information",
+    "OptionC":"Displays file sizes",
+    "OptionD":"Updates software",
+    "Correct":2
+  },
+  {
+    "Topic":"Basic Networking",
+    "Question":"Which command is used to check network connectivity?",
+    "OptionA":"traceroute",
+    "OptionB":"ip",
+    "OptionC":"netstat",
+    "OptionD":"ping",
+    "Correct":4
+  },
+  {
+    "Topic":"Shell Scripting Basics",
+    "Question":"What is the purpose of the `echo` command?",
+    "OptionA":"To create a file",
+    "OptionB":"To execute a script",
+    "OptionC":"To redirect output",
+    "OptionD":"To display text",
+    "Correct":4
+  },
+  {
+    "Topic":"User and Group Management",
+    "Question":"What is the command to change file ownership?",
+    "OptionA":"usermod",
+    "OptionB":"chmod",
+    "OptionC":"chown",
+    "OptionD":"groupadd",
+    "Correct":3
+  },
+  {
+    "Topic":"Shell Scripting Basics",
+    "Question":"Which symbol is used for output redirection?",
+    "OptionA":">",
+    "OptionB":">>",
+    "OptionC":"<",
+    "OptionD":"|",
+    "Correct":1
+  },
+  {
+    "Topic":"User and Group Management",
+    "Question":"Which command is used to delete a group?",
+    "OptionA":"groupdel",
+    "OptionB":"delgroup",
+    "OptionC":"usermod",
+    "OptionD":"chown",
+    "Correct":1
+  },
+  {
+    "Topic":"User and Group Management",
+    "Question":"What is the purpose of the `\/etc\/group` file?",
+    "OptionA":"To store group information",
+    "OptionB":"To store user passwords",
+    "OptionC":"To configure DNS",
+    "OptionD":"To list open ports",
+    "Correct":1
+  },
+  {
+    "Topic":"User and Group Management",
+    "Question":"Which command is used to change a user's password?",
+    "OptionA":"usermod",
+    "OptionB":"chpasswd",
+    "OptionC":"passwd",
+    "OptionD":"chown",
+    "Correct":3
+  },
+  {
+    "Topic":"Shell Scripting Basics",
+    "Question":"Which command is used to concatenate files in a shell script?",
+    "OptionA":"cat",
+    "OptionB":"echo",
+    "OptionC":"read",
+    "OptionD":"write",
+    "Correct":1
+  },
+  {
+    "Topic":"Basic Networking",
+    "Question":"What is the purpose of the `\/etc\/hosts` file?",
+    "OptionA":"To list users",
+    "OptionB":"To store DNS settings",
+    "OptionC":"To configure network interfaces",
+    "OptionD":"To map hostnames to IP addresses",
+    "Correct":4
+  },
+  {
+    "Topic":"User and Group Management",
+    "Question":"What is the purpose of the `\/etc\/shadow` file?",
+    "OptionA":"To store encrypted passwords",
+    "OptionB":"To list users",
+    "OptionC":"To configure groups",
+    "OptionD":"To map hostnames",
+    "Correct":1
+  },
+  {
+    "Topic":"User and Group Management",
+    "Question":"Which command is used to add a user to a group?",
+    "OptionA":"usermod -aG",
+    "OptionB":"groupadd",
+    "OptionC":"adduser",
+    "OptionD":"chown",
+    "Correct":1
+  },
+  {
+    "Topic":"Navigating the file system",
+    "Question":"Which command lists files and directories in reverse order?",
+    "OptionA":"ls -r",
+    "OptionB":"ls -R",
+    "OptionC":"ls -t",
+    "OptionD":"ls -S",
+    "Correct":1
+  },
+  {
+    "Topic":"Basic Networking",
+    "Question":"What is the purpose of the `ip` command?",
+    "OptionA":"To list open ports",
+    "OptionB":"To test network speed",
+    "OptionC":"To trace packets",
+    "OptionD":"To configure network interfaces",
+    "Correct":4
+  },
+  {
+    "Topic":"Navigating the file system",
+    "Question":"Which file system hierarchy level contains user home directories?",
+    "OptionA":"\/home",
+    "OptionB":"\/usr",
+    "OptionC":"\/opt",
+    "OptionD":"\/var",
+    "Correct":1
+  },
+  {
+    "Topic":"Shell Scripting Basics",
+    "Question":"How do you make a shell script executable?",
+    "OptionA":"chmod +x script.sh",
+    "OptionB":"exec script.sh",
+    "OptionC":"run script.sh",
+    "OptionD":"sh script.sh",
+    "Correct":1
+  },
+  {
+    "Topic":"Navigating the file system",
+    "Question":"In Linux, what is the purpose of the `\/bin` directory?",
+    "OptionA":"Storing binary executables and essential system programs",
+    "OptionB":"Storing temporary files",
+    "OptionC":"User home directories",
+    "OptionD":"System configuration files",
+    "Correct":1
+  },
+  {
+    "Topic":"Basic process management",
+    "Question":"What does the `kill -9` command do in Linux?",
+    "OptionA":"Gracefully stops a process",
+    "OptionB":"Forces termination of a process",
+    "OptionC":"Pauses a process",
+    "OptionD":"Renames a process",
+    "Correct":2
+  },
+  {
+    "Topic":"Shell Scripting I\/O",
+    "Question":"Which command reads the first 10 lines of a file?",
+    "OptionA":"head",
+    "OptionB":"tail",
+    "OptionC":"cat -n 10",
+    "OptionD":"less -10",
+    "Correct":1
+  },
+  {
+    "Topic":"File Systems & Disk Management",
+    "Question":"Which file system is not supported natively by Linux?",
+    "OptionA":"NTFS",
+    "OptionB":"ext4",
+    "OptionC":"xfs",
+    "OptionD":"btrfs",
+    "Correct":1
+  },
+  {
+    "Topic":"File Systems & Disk Management",
+    "Question":"Which file system is the default for most Linux distributions?",
+    "OptionA":"ext4",
+    "OptionB":"xfs",
+    "OptionC":"ntfs",
+    "OptionD":"btrfs",
+    "Correct":1
+  },
+  {
+    "Topic":"File Systems and Disk Management",
+    "Question":"Which command is used to unmount a file system?",
+    "OptionA":"fdisk",
+    "OptionB":"mount",
+    "OptionC":"umount",
+    "OptionD":"parted",
+    "Correct":3
+  },
+  {
+    "Topic":"File Systems and Disk Management",
+    "Question":"Which command is used to check the integrity of a file system?",
+    "OptionA":"fdisk",
+    "OptionB":"fsck",
+    "OptionC":"mkfs",
+    "OptionD":"mount",
+    "Correct":2
+  },
+  {
+    "Topic":"File Systems and Disk Management",
+    "Question":"What is the purpose of the `tune2fs` command?",
+    "OptionA":"To adjust file system parameters",
+    "OptionB":"To partition disks",
+    "OptionC":"To format disks",
+    "OptionD":"To mount file systems",
+    "Correct":1
+  },
+  {
+    "Topic":"Basic Networking",
+    "Question":"What is the purpose of the `nmcli` command?",
+    "OptionA":"To manage network connections",
+    "OptionB":"To configure DNS",
+    "OptionC":"To test network speed",
+    "OptionD":"To trace packets",
+    "Correct":1
+  },
+  {
+    "Topic":"Basic Networking",
+    "Question":"Which command is used to display routing tables?",
+    "OptionA":"ping",
+    "OptionB":"netstat -r",
+    "OptionC":"traceroute",
+    "OptionD":"ip route",
+    "Correct":4
+  },
+  {
+    "Topic":"File Systems and Disk Management",
+    "Question":"What is the purpose of the `mount` command?",
+    "OptionA":"To attach a file system to a directory",
+    "OptionB":"To detach a file system",
+    "OptionC":"To partition disks",
+    "OptionD":"To format disks",
+    "Correct":1
+  },
+  {
+    "Topic":"File Systems and Disk Management",
+    "Question":"What is the purpose of the `e2fsck` command?",
+    "OptionA":"To check and repair an `ext2\/ext3\/ext4` file system",
+    "OptionB":"To partition disks",
+    "OptionC":"To format disks",
+    "OptionD":"To mount file systems",
+    "Correct":1
+  },
+  {
+    "Topic":"File permissions and ownership",
+    "Question":"What does the `chmod 755` command do?",
+    "OptionA":"Gives all permissions to everyone",
+    "OptionB":"Gives read, write, execute to owner and read, execute to others",
+    "OptionC":"Revokes all permissions",
+    "OptionD":"Grants execute only",
+    "Correct":2
+  },
+  {
+    "Topic":"Navigating the file system",
+    "Question":"What does the `-l` option do in the `ls` command?",
+    "OptionA":"List files in a long format",
+    "OptionB":"Display files in a single column",
+    "OptionC":"Sort files by size",
+    "OptionD":"List only directories",
+    "Correct":1
+  },
+  {
+    "Topic":"File permissions and ownership",
+    "Question":"Which command is used to change the owner of a file?",
+    "OptionA":"chown",
+    "OptionB":"chmod",
+    "OptionC":"own",
+    "OptionD":"fileown",
+    "Correct":1
+  },
+  {
+    "Topic":"File Systems & Disk Management",
+    "Question":"What does the 'umount' command do?",
+    "OptionA":"Unmounts a file system",
+    "OptionB":"Mounts a file system",
+    "OptionC":"Formats a disk",
+    "OptionD":"Checks disk usage",
+    "Correct":1
+  },
+  {
+    "Topic":"File Systems & Disk Management",
+    "Question":"Which command shows disk space usage of a file system?",
+    "OptionA":"df",
+    "OptionB":"du",
+    "OptionC":"lsblk",
+    "OptionD":"blkid",
+    "Correct":1
+  },
+  {
+    "Topic":"Navigating the file system",
+    "Question":"What happens when executing ls -a \/home\/user2 in Linux?",
+    "OptionA":"Lists all files and directories in \"\/home\/user2\"",
+    "OptionB":"Lists only the directories in \"\/home\/user2\"",
+    "OptionC":"Lists files in alphabetical order in \"\/home\/user2\"",
+    "OptionD":"Lists all files and directories except hidden ones in \"\/home\/user2\"",
+    "Correct":1
+  },
+  {
+    "Topic":"Navigating the file system",
+    "Question":"What is the command which changes the working directory from root(\/) to home(~)?",
+    "OptionA":"cd ..\/..",
+    "OptionB":"cd",
+    "OptionC":"Both A and B",
+    "OptionD":"None of these",
+    "Correct":2
+  },
+  {
+    "Topic":"Shell Scripting Basics",
+    "Question":"Shell Script: Palindrome Checker\n \n ```bash\n #!\/bin\/bash\n \n # Prompt user for input\n echo \"Enter a number:\"\n read number\n \n # Store the original number for comparison\n original_number=$number\n \n # Reverse the number\n reverse=0\n while [ $number -gt 0 ]; do\n  digit=$((number % 10))\n  reverse=$((reverse 10 + digit))\n  number=$((number \/ 10))\n done\n \n # Check if the number is a palindrome\n if [ $original_number -eq $reverse ]; then\n  echo \"$original_number is a palindrome.\"\n else\n  echo \"$original_number is not a palindrome.\"\n fi\n ```\n \n \n Based on above shell script code give the answers of following question :\n What is the purpose of the loop in the script: while [ $number -gt 0 ]?",
+    "OptionA":"Reverses the digits of the number",
+    "OptionB":"Checks if the number is positive",
+    "OptionC":"Determines the length of the number",
+    "OptionD":"Calculates the sum of the digits",
+    "Correct":1
+  },
+  {
+    "Topic":"Basic Networking",
+    "Question":"What is the default loopback IP address?",
+    "OptionA":"10.0.0.1",
+    "OptionB":"192.168.1.1",
+    "OptionC":"127.0.0.1",
+    "OptionD":"172.16.0.1",
+    "Correct":3
+  },
+  {
+    "Topic":"Shell Scripting Basics",
+    "Question":"What does the echo -e option do?",
+    "OptionA":"Enables interpretation of backslash-escaped characters",
+    "OptionB":"Prints text in uppercase",
+    "OptionC":"Suppresses the output",
+    "OptionD":"Prints text in bold",
+    "Correct":1
+  },
+  {
+    "Topic":"User and Group Management",
+    "Question":"Which command is used to modify user properties?",
+    "OptionA":"groupadd",
+    "OptionB":"adduser",
+    "OptionC":"deluser",
+    "OptionD":"usermod",
+    "Correct":4
+  },
+  {
+    "Topic":"Shell Scripting Basics",
+    "Question":"What is the command to execute a shell script?",
+    "OptionA":".\/script.sh",
+    "OptionB":"bash script.sh",
+    "OptionC":"sh script.sh",
+    "OptionD":"All of the above",
+    "Correct":4
+  },
+  {
+    "Topic":"User and Group Management",
+    "Question":"Which command is used to display information about a user, including their user ID (UID) and group ID (GID)?",
+    "OptionA":"who",
+    "OptionB":"id",
+    "OptionC":"last",
+    "OptionD":"w",
+    "Correct":2
+  },
+  {
+    "Topic":"File Systems and Disk Management",
+    "Question":"What is the purpose of the `ext4` file system?",
+    "OptionA":"To encryt files",
+    "OptionB":"To provide a journaling file system",
+    "OptionC":"To compress files",
+    "OptionD":"To manage partitions",
+    "Correct":2
+  },
+  {
+    "Topic":"Shell Scripting Basics",
+    "Question":"What is the purpose of the `awk` command in shell scripting?",
+    "OptionA":"To redirect output",
+    "OptionB":"To define variables",
+    "OptionC":"To process and analyze text",
+    "OptionD":"To loop through items",
+    "Correct":3
+  },
+  {
+    "Topic":"Navigating the file system",
+    "Question":"How can you list files and directories in a specified directory other than the current one using `ls`?",
+    "OptionA":"Use the `-p` option",
+    "OptionB":"Provide the directory path as an argument",
+    "OptionC":"Use the `-d` option",
+    "OptionD":"You cannot specify a directory with `ls`",
+    "Correct":2
+  },
+  {
+    "Topic":"Basic Networking",
+    "Question":"Which command is used to display the IP address of a system?",
+    "OptionA":"ip addr",
+    "OptionB":"ping",
+    "OptionC":"traceroute",
+    "OptionD":"netstat",
+    "Correct":1
+  },
+  {
+    "Topic":"File and directory manipulation",
+    "Question":"You execute the `rm -v file.txt` command. What is the purpose of the `-v` option?",
+    "OptionA":"Removes the file quietly without any confirmation.",
+    "OptionB":"Renames the file.",
+    "OptionC":"Moves the file to the Trash for later recovery.",
+    "OptionD":"Displays the removal process with a verbose message.",
+    "Correct":4
+  },
+  {
+    "Topic":"File and directory manipulation",
+    "Question":"Which Linux command is used to rename a file?",
+    "OptionA":"mv",
+    "OptionB":"rename",
+    "OptionC":"filemove",
+    "OptionD":"chname",
+    "Correct":1
+  },
+  {
+    "Topic":"Basic process management",
+    "Question":"What is the role of the kill command?",
+    "OptionA":"Terminates a process",
+    "OptionB":"Starts a process",
+    "OptionC":"Lists all processes",
+    "OptionD":"Pauses a process",
+    "Correct":1
+  },
+  {
+    "Topic":"Shell Scripting Basics",
+    "Question":"Which symbol is used for input redirection in shell scripting?",
+    "OptionA":">",
+    "OptionB":"<",
+    "OptionC":"|",
+    "OptionD":">>",
+    "Correct":2
+  },
+  {
+    "Topic":"Shell Scripting Basics",
+    "Question":"Which command is used to print output in a shell script?",
+    "OptionA":"echo",
+    "OptionB":"print",
+    "OptionC":"display",
+    "OptionD":"show",
+    "Correct":1
+  },
+  {
+    "Topic":"File and directory manipulation",
+    "Question":"You copy a file named `file.txt` to a directory called `backup\/`. What is the command to do this?",
+    "OptionA":"cp file.txt backup\/",
+    "OptionB":"mv file.txt backup\/",
+    "OptionC":"cp backup\/ file.txt",
+    "OptionD":"mv backup\/ file.txt",
+    "Correct":1
+  },
+  {
+    "Topic":"Basic Networking",
+    "Question":"What is the purpose of the `\/etc\/networks` file?",
+    "OptionA":"To list users",
+    "OptionB":"To store DNS settings",
+    "OptionC":"To configure network interfaces",
+    "OptionD":"To map network names to IP addresses",
+    "Correct":4
+  },
+  {
+    "Topic":"User and Group Management",
+    "Question":"Which command is used to list all groups a user belongs to?",
+    "OptionA":"groups",
+    "OptionB":"id",
+    "OptionC":"usermod",
+    "OptionD":"chown",
+    "Correct":1
+  },
+  {
+    "Topic":"File Systems & Disk Management",
+    "Question":"What is the purpose of the 'du' command?",
+    "OptionA":"Displays disk usage of files and directories",
+    "OptionB":"Shows disk partitions",
+    "OptionC":"Formats a disk",
+    "OptionD":"Unmounts a file system",
+    "Correct":1
+  },
+  {
+    "Topic":"File Systems & Disk Management",
+    "Question":"Which command creates a new file system on a partition?",
+    "OptionA":"mkfs",
+    "OptionB":"mount",
+    "OptionC":"fdisk",
+    "OptionD":"lsblk",
+    "Correct":1
+  },
+  {
+    "Topic":"File Systems & Disk Management",
+    "Question":"How do you check the type of file system used by a partition?",
+    "OptionA":"blkid",
+    "OptionB":"df",
+    "OptionC":"du",
+    "OptionD":"fdisk",
+    "Correct":1
+  },
+  {
+    "Topic":"File Systems and Disk Management",
+    "Question":"Which command is used to partition disks?",
+    "OptionA":"df",
+    "OptionB":"fdisk",
+    "OptionC":"du",
+    "OptionD":"mount",
+    "Correct":2
+  },
+  {
+    "Topic":"File Systems and Disk Management",
+    "Question":"What is the purpose of the `parted` command?",
+    "OptionA":"To mount file systems",
+    "OptionB":"To partition disks",
+    "OptionC":"To check disk usage",
+    "OptionD":"To unmount file systems",
+    "Correct":2
+  },
+  {
+    "Topic":"File Systems and Disk Management",
+    "Question":"What is the purpose of the `vgcreate` command?",
+    "OptionA":"To create a volume group",
+    "OptionB":"To partition disks",
+    "OptionC":"To format disks",
+    "OptionD":"To mount file systems",
+    "Correct":1
+  },
+  {
+    "Topic":"User and Group Management",
+    "Question":"Which command is used to list all users on a system?",
+    "OptionA":"ls \/home",
+    "OptionB":"cat \/etc\/passwd",
+    "OptionC":"userlist",
+    "OptionD":"listusers",
+    "Correct":2
+  },
+  {
+    "Topic":"User and Group Management",
+    "Question":"What does the command \"chmod +x script.sh\" do?",
+    "OptionA":"Removes execute permission",
+    "OptionB":"Adds execute permission",
+    "OptionC":"Changes ownership",
+    "OptionD":"Renames the script",
+    "Correct":2
+  },
+  {
+    "Topic":"File and directory manipulation",
+    "Question":"You run the `rm -i file.txt` command. What is the purpose of the `-i` option?",
+    "OptionA":"Remove the file without any confirmation.",
+    "OptionB":"Rename the file.",
+    "OptionC":"Move the file to the Trash for later recovery.",
+    "OptionD":"Prompt for confirmation before deletion.",
+    "Correct":4
+  },
+  {
+    "Topic":"Navigating the file system",
+    "Question":"What does the `cd -` command do in Linux?",
+    "OptionA":"Navigates to the previous directory.",
+    "OptionB":"Changes to the root directory.",
+    "OptionC":"Lists hidden files.",
+    "OptionD":"Moves to the user's home directory.",
+    "Correct":1
+  },
+  {
+    "Topic":"Basic Command Line Skills",
+    "Question":"You have a text file named `document.txt`. What is the output of the `cat document.txt` command?",
+    "OptionA":"The content of `document.txt`",
+    "OptionB":"Nothing; it opens the text editor",
+    "OptionC":"\"document.txt\" displayed on the screen",
+    "OptionD":"An error message",
+    "Correct":1
+  },
+  {
+    "Topic":"File and directory manipulation",
+    "Question":"You execute the `mkdir mydir` command. What is the result?",
+    "OptionA":"Creates a new directory named \"mydir\"",
+    "OptionB":"Deletes the \"mydir\" directory",
+    "OptionC":"Renames an existing directory to \"mydir\"",
+    "OptionD":"Lists the contents of \"mydir\"",
+    "Correct":1
+  },
+  {
+    "Topic":"File permissions and ownership",
+    "Question":"You want to set the permissions of a file example.txt to rw-r--r-- using the chmod command. Which of the following commands will you use?",
+    "OptionA":"chmod 755 example.txt",
+    "OptionB":"chmod 644 example.txt",
+    "OptionC":"chmod 600 example.txt",
+    "OptionD":"chmod 777 example.txt",
+    "Correct":2
+  },
+  {
+    "Topic":"File permissions and ownership",
+    "Question":"Which chmod command sets a file script.sh to be executable by everyone but writable only by the owner?",
+    "OptionA":"chmod 755 script.sh",
+    "OptionB":"chmod 775 script.sh",
+    "OptionC":"chmod 744 script.sh",
+    "OptionD":"chmod 666 script.sh",
+    "Correct":1
+  },
+  {
+    "Topic":"File Systems & Disk Management",
+    "Question":"Which file system is optimized for large-scale storage systems?",
+    "OptionA":"xfs",
+    "OptionB":"ext4",
+    "OptionC":"ntfs",
+    "OptionD":"fat32",
+    "Correct":1
+  },
+  {
+    "Topic":"Process Management",
+    "Question":"Which command is used to display information about the currently running processes?",
+    "OptionA":"top",
+    "OptionB":"ps",
+    "OptionC":"pgrep",
+    "OptionD":"processinfo",
+    "Correct":2
+  },
+  {
+    "Topic":"Basic Command Line Skills:",
+    "Question":"What does the pwd command display?",
+    "OptionA":"Path to the current working directory",
+    "OptionB":"List of files",
+    "OptionC":"System information",
+    "OptionD":"Current user",
+    "Correct":1
+  },
+  {
+    "Topic":"Package Management",
+    "Question":"What is the use of the `apt autoremove` command?",
+    "OptionA":"Cleans old packages",
+    "OptionB":"Installs dependencies",
+    "OptionC":"Updates system",
+    "OptionD":"Removes unnecessary packages",
+    "Correct":4
+  },
+  {
+    "Topic":"Basic Networking",
+    "Question":"What is the purpose of the `traceroute` command?",
+    "OptionA":"To test network speed",
+    "OptionB":"To trace the route of packets",
+    "OptionC":"To configure DNS",
+    "OptionD":"To list open ports",
+    "Correct":2
+  },
+  {
+    "Topic":"Basic Networking",
+    "Question":"Which command is used to display open ports?",
+    "OptionA":"ip",
+    "OptionB":"ping",
+    "OptionC":"traceroute",
+    "OptionD":"netstat",
+    "Correct":4
+  },
+  {
+    "Topic":"Shell Scripting Basics",
+    "Question":"Which command is used to exit a shell script?",
+    "OptionA":"exit",
+    "OptionB":"break",
+    "OptionC":"return",
+    "OptionD":"stop",
+    "Correct":1
+  },
+  {
+    "Topic":"Shell Scripting Basics",
+    "Question":"What is the purpose of the `for` loop in shell scripting?",
+    "OptionA":"To iterate over a list of items",
+    "OptionB":"To define variables",
+    "OptionC":"To redirect output",
+    "OptionD":"To perform conditional checks",
+    "Correct":1
+  },
+  {
+    "Topic":"Shell Scripting Basics",
+    "Question":"What is the purpose of the `read` command?",
+    "OptionA":"To take user input",
+    "OptionB":"To display text",
+    "OptionC":"To execute a script",
+    "OptionD":"To redirect output",
+    "Correct":1
+  },
+  {
+    "Topic":"Shell Scripting Basics",
+    "Question":"Which command is used to compare two strings in a shell script?",
+    "OptionA":"if",
+    "OptionB":"case",
+    "OptionC":"while",
+    "OptionD":"for",
+    "Correct":1
+  },
+  {
+    "Topic":"User and Group Management",
+    "Question":"How do you switch to another user account using the `su` command?",
+    "OptionA":"switchuser <username>",
+    "OptionB":"su <username>",
+    "OptionC":"changeuser <username>",
+    "OptionD":"loginuser <username>",
+    "Correct":2
+  },
+  {
+    "Topic":"Basic Networking",
+    "Question":"Which command is used to configure a network interface using `nmcli`?",
+    "OptionA":"nmcli gen",
+    "OptionB":"nmcli dev show",
+    "OptionC":"nmcli con add",
+    "OptionD":"nmcli mon",
+    "Correct":3
+  },
+  {
+    "Topic":"Basic Networking",
+    "Question":"What is the purpose of the `\/etc\/nsswitch.conf` file?",
+    "OptionA":"To configure network interfaces",
+    "OptionB":"To store DNS settings",
+    "OptionC":"To configure name service resolution",
+    "OptionD":"To list users",
+    "Correct":3
+  },
+  {
+    "Topic":"Shell Scripting Basics",
+    "Question":"What is the purpose of the `exec` command in shell scripting?",
+    "OptionA":"To replace the current shell with a new process",
+    "OptionB":"To define variables",
+    "OptionC":"To redirect output",
+    "OptionD":"To loop through items",
+    "Correct":1
+  },
+  {
+    "Topic":"Navigating the file system",
+    "Question":"In the Linux file system hierarchy, what is the purpose of the \"\/usr\" directory?",
+    "OptionA":"User home directories",
+    "OptionB":"System configuration files",
+    "OptionC":"User command binaries and data",
+    "OptionD":"Temporary files",
+    "Correct":3
+  },
+  {
+    "Topic":"Shell Scripting Basics",
+    "Question":"What does the pipe (|) symbol do in shell scripting?",
+    "OptionA":"Redirects input",
+    "OptionB":"Combines multiple commands",
+    "OptionC":"Assigns a variable value",
+    "OptionD":"Terminates a script",
+    "Correct":2
+  },
+  {
+    "Topic":"Shell Scripting Basics",
+    "Question":"Which file extension is commonly used for shell scripts?",
+    "OptionA":".sh",
+    "OptionB":".shell",
+    "OptionC":".script",
+    "OptionD":".bat",
+    "Correct":1
+  },
+  {
+    "Topic":"Shell Scripting Basics",
+    "Question":"Which command is used to append text to a file?",
+    "OptionA":"echo 'text' >> file.txt",
+    "OptionB":"cat > file.txt",
+    "OptionC":"append 'text' file.txt",
+    "OptionD":"write 'text' file.txt",
+    "Correct":1
+  },
+  {
+    "Topic":"File and directory manipulation",
+    "Question":"You use the `cp -a dir1\/ dir2\/` command to copy a directory. What is the result?",
+    "OptionA":"A copy of `dir1\/` is created within `dir2\/`.",
+    "OptionB":"An error is generated, as `-a` is an invalid option for `cp`.",
+    "OptionC":"`dir1\/` is moved to `dir2\/`.",
+    "OptionD":"An error is generated, as you cannot copy directories with `cp`.",
+    "Correct":1
+  },
+  {
+    "Topic":"Basic Networking",
+    "Question":"What is the purpose of the `dig` command?",
+    "OptionA":"To trace packets",
+    "OptionB":"To test network speed",
+    "OptionC":"To query DNS servers",
+    "OptionD":"To list open ports",
+    "Correct":3
+  },
+  {
+    "Topic":"Basic Networking",
+    "Question":"Which command is used to display ARP table entries?",
+    "OptionA":"arp -a",
+    "OptionB":"ip neigh",
+    "OptionC":"netstat",
+    "OptionD":"traceroute",
+    "Correct":1
+  },
+  {
+    "Topic":"Shell Scripting Basics",
+    "Question":"What does the $? variable store in shell scripting?",
+    "OptionA":"Exit status of last command",
+    "OptionB":"Process ID",
+    "OptionC":"User ID",
+    "OptionD":"Shell version",
+    "Correct":1
+  },
+  {
+    "Topic":"File permissions and ownership",
+    "Question":"What will be the output of the command:\necho -e \"Hello\\tWorld\"",
+    "OptionA":"Hello World",
+    "OptionB":"Hello World (with a tab space)",
+    "OptionC":"Hello\\tWorld",
+    "OptionD":"Error message",
+    "Correct":2
+  },
+  {
+    "Topic":"File Systems & Disk Management",
+    "Question":"Which command lists block devices?",
+    "OptionA":"lsblk",
+    "OptionB":"df",
+    "OptionC":"mount",
+    "OptionD":"du",
+    "Correct":1
+  },
+  {
+    "Topic":"File Systems and Disk Management",
+    "Question":"Which command is used to format a partition with the `ext4` file system?",
+    "OptionA":"mount",
+    "OptionB":"fdisk",
+    "OptionC":"mkfs.ext4",
+    "OptionD":"umount",
+    "Correct":3
+  },
+  {
+    "Topic":"File Systems and Disk Management",
+    "Question":"Which command is used to check the status of a RAID array?",
+    "OptionA":"mkfs",
+    "OptionB":"fdisk",
+    "OptionC":"mdadm --detail",
+    "OptionD":"mount",
+    "Correct":3
+  },
+  {
+    "Topic":"File Systems and Disk Management",
+    "Question":"What is the purpose of the `lvm` command?",
+    "OptionA":"To manage logical volumes",
+    "OptionB":"To partition disks",
+    "OptionC":"To format disks",
+    "OptionD":"To mount file systems",
+    "Correct":1
+  },
+  {
+    "Topic":"File Systems and Disk Management",
+    "Question":"Which command is used to create a logical volume?",
+    "OptionA":"fdisk",
+    "OptionB":"pvcreate",
+    "OptionC":"vgcreate",
+    "OptionD":"lvcreate",
+    "Correct":4
+  },
+  {
+    "Topic":"User and Group Management",
+    "Question":"What is the purpose of the `visudo` command?",
+    "OptionA":"To edit the sudoers file",
+    "OptionB":"To delete a user",
+    "OptionC":"To change ownership",
+    "OptionD":"To create a group",
+    "Correct":1
+  },
+  {
+    "Topic":"Shell Scripting Basics",
+    "Question":"What is the purpose of the `trap` command in shell scripting?",
+    "OptionA":"To define variables",
+    "OptionB":"To handle signals",
+    "OptionC":"To redirect output",
+    "OptionD":"To loop through items",
+    "Correct":2
+  },
+  {
+    "Topic":"Shell Scripting Basics",
+    "Question":"Which command is used to remove duplicate lines from a file?",
+    "OptionA":"grep",
+    "OptionB":"sort",
+    "OptionC":"uniq",
+    "OptionD":"cat",
+    "Correct":3
+  },
+  {
+    "Topic":"File and directory manipulation",
+    "Question":"You run the `mv file.txt newfile.txt` command. What is the result?",
+    "OptionA":"Moves \"file.txt\" to a new directory called \"newfile.txt\"",
+    "OptionB":"Renames \"file.txt\" to \"newfile.txt\"",
+    "OptionC":"Copies \"file.txt\" to \"newfile.txt\"",
+    "OptionD":"Deletes \"file.txt\" and creates \"newfile.txt\"",
+    "Correct":2
+  },
+  {
+    "Topic":"Navigating the file system",
+    "Question":"You run the `ls -aR \/` command. What will be the output?",
+    "OptionA":"List all files and directories(hidden as well) in the root directory recursively",
+    "OptionB":"List all hidden files and directories only in the root directory",
+    "OptionC":"List the contents of the current directory",
+    "OptionD":"List files and directories in reverse order in the root directory.",
+    "Correct":1
+  },
+  {
+    "Topic":"Shell Scripting Basics",
+    "Question":"How do you write a comment in a shell script?",
+    "OptionA":"# This is a comment",
+    "OptionB":"\/\/ This is a comment",
+    "OptionC":"\/* This is a comment *\/",
+    "OptionD":"-- This is a comment",
+    "Correct":1
+  },
+  {
+    "Topic":"Shell Scripting Basics",
+    "Question":"Which command is used to check if a file exists in shell scripting?",
+    "OptionA":"[ -f filename ]",
+    "OptionB":"[ -e filename ]",
+    "OptionC":"[ -d filename ]",
+    "OptionD":"[ -s filename ]",
+    "Correct":2
+  },
+  {
+    "Topic":"Navigating the file system",
+    "Question":"What does the `\/dev` directory contain in Linux?",
+    "OptionA":"Device files representing hardware devices",
+    "OptionB":"User home directories",
+    "OptionC":"System log files",
+    "OptionD":"System executables",
+    "Correct":1
+  },
+  {
+    "Topic":"Basic Command Line Skills",
+    "Question":"What happens if you run the `cd` command without specifying a directory in Linux?",
+    "OptionA":"It takes you to the root directory.",
+    "OptionB":"It lists the contents of the current directory.",
+    "OptionC":"It prints the current working directory.",
+    "OptionD":"It displays an error message.",
+    "Correct":3
+  },
+  {
+    "Topic":"File Systems & Disk Management",
+    "Question":"What is the main difference between fdisk and parted?",
+    "OptionA":"fdisk supports only MBR, parted supports MBR and GPT",
+    "OptionB":"fdisk is GUI-based",
+    "OptionC":"parted can only create partitions",
+    "OptionD":"fdisk does not support Linux file systems",
+    "Correct":1
+  },
+  {
+    "Topic":"File Systems & Disk Management",
+    "Question":"Which command displays partition information?",
+    "OptionA":"lsblk",
+    "OptionB":"df",
+    "OptionC":"du",
+    "OptionD":"mount",
+    "Correct":1
+  },
+  {
+    "Topic":"User and Group Management",
+    "Question":"Which command is used to add a new user?",
+    "OptionA":"adduser",
+    "OptionB":"user",
+    "OptionC":"usermod",
+    "OptionD":"groupadd",
+    "Correct":1
+  },
+  {
+    "Topic":"Basic Networking",
+    "Question":"What is the purpose of the `\/etc\/resolv.conf` file?",
+    "OptionA":"To store hostnames",
+    "OptionB":"To configure DNS servers",
+    "OptionC":"To configure IP addresses",
+    "OptionD":"To list users",
+    "Correct":2
+  },
+  {
+    "Topic":"Basic Networking",
+    "Question":"What is the purpose of the `ping` command?",
+    "OptionA":"To test network connectivity",
+    "OptionB":"To configure DNS",
+    "OptionC":"To trace packets",
+    "OptionD":"To list open ports",
+    "Correct":1
+  },
+  {
+    "Topic":"Shell Scripting Basics",
+    "Question":"What is the purpose of the `case` statement in shell scripting?",
+    "OptionA":"To loop through items",
+    "OptionB":"To define variables",
+    "OptionC":"To redirect output",
+    "OptionD":"To perform multi-way branching",
+    "Correct":4
+  },
+  {
+    "Topic":"Basic Networking",
+    "Question":"What is the purpose of the `\/etc\/network\/interfaces` file?",
+    "OptionA":"To configure network interfaces",
+    "OptionB":"To store DNS settings",
+    "OptionC":"To list open ports",
+    "OptionD":"To map hostnames",
+    "Correct":1
+  },
+  {
+    "Topic":"Basic Networking",
+    "Question":"What is the purpose of the `ss` command?",
+    "OptionA":"To display socket statistics",
+    "OptionB":"To configure DNS",
+    "OptionC":"To test network speed",
+    "OptionD":"To trace packets",
+    "Correct":1
+  },
+  {
+    "Topic":"User and Group Management",
+    "Question":"Which command is used to change a user's login shell?",
+    "OptionA":"chmod",
+    "OptionB":"chsh",
+    "OptionC":"chown",
+    "OptionD":"usermod -s",
+    "Correct":4
+  },
+  {
+    "Topic":"User and Group Management",
+    "Question":"What is the purpose of the `chage` command?",
+    "OptionA":"To delete a user",
+    "OptionB":"To change user password aging information",
+    "OptionC":"To change ownership",
+    "OptionD":"To create a group",
+    "Correct":2
+  },
+  {
+    "Topic":"Navigating the file system",
+    "Question":"Which command allows you to change the working directory to your home directory in Linux?",
+    "OptionA":"cd \/",
+    "OptionB":"cd ~",
+    "OptionC":"cd ..",
+    "OptionD":"cd .",
+    "Correct":2
+  },
+  {
+    "Topic":"Navigating the file system",
+    "Question":"How can you change the working directory to a directory named \"documents\" located in the current directory in Linux?",
+    "OptionA":"cd \/documents",
+    "OptionB":"cd .\/documents",
+    "OptionC":"cd ..\/documents",
+    "OptionD":"cd doc",
+    "Correct":2
+  },
+  {
+    "Topic":"Shell Scripting Basics",
+    "Question":"Which command is used to extract specific columns from a file?",
+    "OptionA":"cut",
+    "OptionB":"grep",
+    "OptionC":"awk",
+    "OptionD":"sed",
+    "Correct":1
+  },
+  {
+    "Topic":"Navigating the file system",
+    "Question":"What is the purpose of the \"\/boot\" directory in the Linux file system hierarchy?",
+    "OptionA":"User's home directory",
+    "OptionB":"System boot files and kernels",
+    "OptionC":"System configuration files",
+    "OptionD":"Temporary files",
+    "Correct":2
+  },
+  {
+    "Topic":"File and directory manipulation",
+    "Question":"You execute the `mv file1.txt dir\/` command. What is the result if `dir\/` does not exist?",
+    "OptionA":"`file1.txt` is moved to a new directory named `dir`.",
+    "OptionB":"An error is generated; `dir\/` does not exist.",
+    "OptionC":"`dir\/` is created, and `file1.txt` is moved into it.",
+    "OptionD":"`file1.txt` is deleted.",
+    "Correct":2
+  },
+  {
+    "Topic":"Navigating the file system",
+    "Question":"You run the `ls -d *\/` command. What will be the output?",
+    "OptionA":"Lists all files and directories in the current directory.",
+    "OptionB":"Lists only hidden directories.",
+    "OptionC":"Lists only directories in the current directory.",
+    "OptionD":"An error, as you cannot use `-d` with `ls`.",
+    "Correct":3
+  },
+  {
+    "Topic":"Navigating the file system",
+    "Question":"You run the `cd ..\/..\/` command. What is the result?",
+    "OptionA":"Moves to the user's home directory",
+    "OptionB":"Navigates two levels up in the directory structure",
+    "OptionC":"Lists hidden files in the current directory",
+    "OptionD":"Changes to the root directory",
+    "Correct":2
+  },
+  {
+    "Topic":"Shell Scripting Basics",
+    "Question":"What is the purpose of the `until` loop in shell scripting?",
+    "OptionA":"To repeat commands until a condition is true",
+    "OptionB":"To define variables",
+    "OptionC":"To redirect output",
+    "OptionD":"To perform conditional checks",
+    "Correct":1
+  },
+  {
+    "Topic":"Shell Scripting Basics",
+    "Question":"Which command is used to count the number of lines in a file?",
+    "OptionA":"wc -l",
+    "OptionB":"grep",
+    "OptionC":"cat",
+    "OptionD":"echo",
+    "Correct":1
+  },
+  {
+    "Topic":"Basic Command Line Skills:",
+    "Question":"You run the `ls -l \/ | head -n 5` command. What is the expected output?",
+    "OptionA":"The first 5 files and directories in the root directory with detailed information.",
+    "OptionB":"A list of hidden files and directories in the root directory.",
+    "OptionC":"The first 5 lines of the file named `\/`.",
+    "OptionD":"An error, as you cannot use `head` with `ls`.",
+    "Correct":1
+  },
+  {
+    "Topic":"File and directory manipulation",
+    "Question":"Which Linux command is used to create a new directory?",
+    "OptionA":"`dir`",
+    "OptionB":"`make`",
+    "OptionC":"`create`",
+    "OptionD":"`mkdir`",
+    "Correct":4
+  },
+  {
+    "Topic":"File and directory manipulation",
+    "Question":"Which command is used to remove an empty directory in Linux?",
+    "OptionA":"`delete`",
+    "OptionB":"`rmdir`",
+    "OptionC":"`remove`",
+    "OptionD":"`rm`",
+    "Correct":2
+  },
+  {
+    "Topic":"File Systems and Disk Management",
+    "Question":"Which command is used to check the file system type?",
+    "OptionA":"du",
+    "OptionB":"df -T",
+    "OptionC":"fdisk",
+    "OptionD":"parted",
+    "Correct":2
+  },
+  {
+    "Topic":"File Systems and Disk Management",
+    "Question":"What is the purpose of the `xfs_growfs` command?",
+    "OptionA":"To resize an XFS file system",
+    "OptionB":"To partition disks",
+    "OptionC":"To format disks",
+    "OptionD":"To mount file systems",
+    "Correct":1
+  },
+  {
+    "Topic":"File Systems and Disk Management",
+    "Question":"Which command is used to check the status of a logical volume?",
+    "OptionA":"lvdisplay",
+    "OptionB":"pvdisplay",
+    "OptionC":"vgdisplay",
+    "OptionD":"fdisk",
+    "Correct":1
+  },
+  {
+    "Topic":"Basic Networking",
+    "Question":"What does the command ping -c 5 google.com do?",
+    "OptionA":"Sends 5 ICMP echo requests to Google",
+    "OptionB":"Sets TTL to 5 hops",
+    "OptionC":"Pings Google every 5 seconds",
+    "OptionD":"Sends continuous pings to Google",
+    "Correct":1
+  },
+  {
+    "Topic":"Basic Commands",
+    "Question":"What does the command ls \/home\/user1\/documents do in Linux?",
+    "OptionA":"Moves files to the \"documents\" directory",
+    "OptionB":"Lists the contents of the \"documents\" directory in \"\/home\/user1\"",
+    "OptionC":"Removes the \"documents\" directory",
+    "OptionD":"Creates a new directory named \"documents",
+    "Correct":2
+  },
+  {
+    "Topic":"Basic Networking",
+    "Question":"What is the purpose of the `iptables` command?",
+    "OptionA":"To configure firewall rules",
+    "OptionB":"To configure DNS",
+    "OptionC":"To test network speed",
+    "OptionD":"To trace packets",
+    "Correct":1
+  },
+  {
+    "Topic":"Basic Networking",
+    "Question":"Which command is used to display detailed network interface statistics?",
+    "OptionA":"ip -s link",
+    "OptionB":"netstat",
+    "OptionC":"traceroute",
+    "OptionD":"ping",
+    "Correct":1
+  },
+  {
+    "Topic":"File and directory manipulation",
+    "Question":"You execute the `cp -R directory\/ newdir\/` command. What does the `-R` option do?",
+    "OptionA":"Copy files and directories recursively",
+    "OptionB":"Remove files and directories forcefully",
+    "OptionC":"Rename directories",
+    "OptionD":"Copy directories and their contents as hard links",
+    "Correct":1
+  },
+  {
+    "Topic":"Navigating the file system",
+    "Question":"What is the output of the `du -sh \/home\/user` command?",
+    "OptionA":"Displays the size of the `\/home\/user` directory in bytes",
+    "OptionB":"Lists all files and directories within `\/home\/user`",
+    "OptionC":"Shows a total summary of disk usage in the `\/home\/user` directory",
+    "OptionD":"Calculates the checksum of files in `\/home\/user`",
+    "Correct":3
+  },
+  {
+    "Topic":"Shell Scripting Basics",
+    "Question":"Which command is used to take input from the user in shell scripting?",
+    "OptionA":"read",
+    "OptionB":"input",
+    "OptionC":"scan",
+    "OptionD":"get",
+    "Correct":1
+  },
+  {
+    "Topic":"Shell Scripting Basics",
+    "Question":"Which shebang line is commonly used in shell scripts?",
+    "OptionA":"#!\/bin\/bash",
+    "OptionB":"#!\/usr\/bin\/python",
+    "OptionC":"#!\/bin\/sh",
+    "OptionD":"#!\/usr\/bin\/env bash",
+    "Correct":1
+  },
+  {
+    "Topic":"File Systems & Disk Management",
+    "Question":"Which file system supports snapshots?",
+    "OptionA":"btrfs",
+    "OptionB":"ext4",
+    "OptionC":"fat32",
+    "OptionD":"xfs",
+    "Correct":1
+  },
+  {
+    "Topic":"File Systems & Disk Management",
+    "Question":"Which command shows detailed disk usage statistics?",
+    "OptionA":"iostat",
+    "OptionB":"df -h",
+    "OptionC":"top",
+    "OptionD":"du -sh",
+    "Correct":4
+  },
+  {
+    "Topic":"File Systems & Disk Management",
+    "Question":"Which command checks a file system for errors?",
+    "OptionA":"fsck",
+    "OptionB":"mkfs",
+    "OptionC":"blkid",
+    "OptionD":"mount",
+    "Correct":1
+  },
+  {
+    "Topic":"File Systems & Disk Management",
+    "Question":"Which tool is used for managing GUID Partition Table (GPT) partitions?",
+    "OptionA":"gdisk",
+    "OptionB":"fdisk",
+    "OptionC":"df",
+    "OptionD":"du",
+    "Correct":1
+  },
+  {
+    "Topic":"Basic Networking",
+    "Question":"Which command displays network interfaces and their configurations?",
+    "OptionA":"traceroute",
+    "OptionB":"ping",
+    "OptionC":"ip addr",
+    "OptionD":"netstat",
+    "Correct":3
+  },
+  {
+    "Topic":"Basic Networking",
+    "Question":"What is the purpose of the `hostname` command?",
+    "OptionA":"To list open ports",
+    "OptionB":"To configure DNS",
+    "OptionC":"To test network speed",
+    "OptionD":"To display or set the system's hostname",
+    "Correct":4
+  },
+  {
+    "Topic":"Shell Scripting Basics",
+    "Question":"What is the purpose of the `$?` variable in shell scripting?",
+    "OptionA":"To define a variable",
+    "OptionB":"To store user input",
+    "OptionC":"To check the exit status of the last command",
+    "OptionD":"To redirect output",
+    "Correct":3
+  },
+  {
+    "Topic":"User and Group Management",
+    "Question":"What is the command to change file permissions?",
+    "OptionA":"chmod",
+    "OptionB":"chown",
+    "OptionC":"usermod",
+    "OptionD":"groupmod",
+    "Correct":1
+  },
+  {
+    "Topic":"User and Group Management",
+    "Question":"Which command is used to change a user's primary group?",
+    "OptionA":"usermod -g",
+    "OptionB":"groupmod",
+    "OptionC":"chown",
+    "OptionD":"chmod",
+    "Correct":1
+  },
+  {
+    "Topic":"User and Group Management",
+    "Question":"What is the purpose of the `chmod 644` command?",
+    "OptionA":"To create a group",
+    "OptionB":"To delete a file",
+    "OptionC":"To change ownership",
+    "OptionD":"To give read\/write permissions to the owner and read-only to others",
+    "Correct":4
+  },
+  {
+    "Topic":"Shell Scripting Basics",
+    "Question":"What is the purpose of the `while` loop in shell scripting?",
+    "OptionA":"To redirect output",
+    "OptionB":"To define variables",
+    "OptionC":"To repeat commands while a condition is true",
+    "OptionD":"To perform conditional checks",
+    "Correct":3
+  },
+  {
+    "Topic":"User and Group Management",
+    "Question":"You run the `ls -l` command and see the following output: `-rw-r--r-- 1 user user 1024 Oct 15 12:34 file.txt`. What does \"user user\" represent?",
+    "OptionA":"The group and owner associated with the file respectively",
+    "OptionB":"The owner and group associated with the file respectively",
+    "OptionC":"The file's creation date and time",
+    "OptionD":"The file's permission mode",
+    "Correct":2
+  },
+  {
+    "Topic":"Shell Scripting",
+    "Question":"What will be the output of echo $(expr 5 + 3)?",
+    "OptionA":"5+3",
+    "OptionB":8,
+    "OptionC":"Error",
+    "OptionD":53,
+    "Correct":2
+  },
+  {
+    "Topic":"Navigating the file system",
+    "Question":"What is the root directory in the Linux file system?",
+    "OptionA":"\/home",
+    "OptionB":"\/var",
+    "OptionC":"\/",
+    "OptionD":"root",
+    "Correct":3
+  },
+  {
+    "Topic":"Shell Scripting Basics",
+    "Question":"Which symbol is used for input redirection?",
+    "OptionA":"|",
+    "OptionB":">",
+    "OptionC":">>",
+    "OptionD":"<",
+    "Correct":4
+  },
+  {
+    "Topic":"File and directory manipulation",
+    "Question":"In Linux, what is the purpose of the \"fstab\" file?",
+    "OptionA":"Store encrypted passwords",
+    "OptionB":"Define file system mount points and options",
+    "OptionC":"Manage system logs",
+    "OptionD":"Configure the kernel",
+    "Correct":2
+  },
+  {
+    "Topic":"Package Management",
+    "Question":"What is the role of the `apt-get update` command?",
+    "OptionA":"Installs software",
+    "OptionB":"Updates package list",
+    "OptionC":"Removes packages",
+    "OptionD":"Upgrades software",
+    "Correct":2
+  },
+  {
+    "Topic":"Basic Command Line Skills",
+    "Question":"Which key combination is used to terminate a running command?",
+    "OptionA":"Ctrl+C",
+    "OptionB":"Ctrl+Z",
+    "OptionC":"Alt+F4",
+    "OptionD":"Shift+Q",
+    "Correct":1
+  },
+  {
+    "Topic":"File permissions and ownership",
+    "Question":"Which command is used to change the permissions of a file or directory in Linux?",
+    "OptionA":"chmod",
+    "OptionB":"chperm",
+    "OptionC":"changeperm",
+    "OptionD":"permmode",
+    "Correct":1
+  },
+  {
+    "Topic":"File and directory manipulation",
+    "Question":"What is the purpose of the `-p` option in the `mkdir` command?",
+    "OptionA":"Print the directory's contents",
+    "OptionB":"Remove the directory and its contents",
+    "OptionC":"Create parent directories if they don't exist",
+    "OptionD":"Provide permission for the directory",
+    "Correct":3
+  },
+  {
+    "Topic":"File Systems & Disk Management",
+    "Question":"Which tool is used for disk partitioning in Linux?",
+    "OptionA":"fdisk",
+    "OptionB":"df",
+    "OptionC":"du",
+    "OptionD":"mount",
+    "Correct":1
+  },
+  {
+    "Topic":"User and Group Management",
+    "Question":"What is the purpose of the -g option with the useradd command in Linux?",
+    "OptionA":"Set the user's primary group",
+    "OptionB":"Create a new user group",
+    "OptionC":"Grant sudo access to the user",
+    "OptionD":"Generate a unique user ID",
+    "Correct":1
+  },
+  {
+    "Topic":"File and directory manipulation",
+    "Question":"Which of the following commands can be used to remove a directory and its contents, including subdirectories?",
+    "OptionA":"`rmdir -f`",
+    "OptionB":"`rmdir -R`",
+    "OptionC":"`rm -r`",
+    "OptionD":"`delete -d`",
+    "Correct":3
+  },
+  {
+    "Topic":"File and directory manipulation",
+    "Question":"You execute the `mkdir -m 777 mydir` command. What is the significance of the `-m` option?",
+    "OptionA":"Create a directory named `mydir` and set its permissions to 777",
+    "OptionB":"Create multiple directories named `mydir`",
+    "OptionC":"List the contents of the `mydir` directory",
+    "OptionD":"Move files to the `mydir` directory",
+    "Correct":1
+  },
+  {
+    "Topic":"File Systems and Disk Management",
+    "Question":"What is the purpose of the `du` command?",
+    "OptionA":"To estimate file space usage",
+    "OptionB":"To display disk space",
+    "OptionC":"To partition disks",
+    "OptionD":"To mount file systems",
+    "Correct":1
+  },
+  {
+    "Topic":"File Systems and Disk Management",
+    "Question":"Which command is used to create a swap file?",
+    "OptionA":"mkswap",
+    "OptionB":"swapon",
+    "OptionC":"swapoff",
+    "OptionD":"fdisk",
+    "Correct":1
+  },
+  {
+    "Topic":"File Systems and Disk Management",
+    "Question":"What is the purpose of the `blkid` command?",
+    "OptionA":"To partition disks",
+    "OptionB":"To display block device attributes",
+    "OptionC":"To format disks",
+    "OptionD":"To mount file systems",
+    "Correct":2
+  },
+  {
+    "Topic":"File Systems and Disk Management",
+    "Question":"Which command is used to resize an `ext4` file system?",
+    "OptionA":"mount",
+    "OptionB":"fdisk",
+    "OptionC":"mkfs",
+    "OptionD":"resize2fs",
+    "Correct":4
+  },
+  {
+    "Topic":"User & Group Management",
+    "Question":"What does the chmod 750 command do for a directory?",
+    "OptionA":"Grants full access to all users",
+    "OptionB":"Allows only owner and group to read and execute",
+    "OptionC":"Grants read, write, and execute permissions to all users",
+    "OptionD":"Denies access to everyone",
+    "Correct":2
+  },
+  {
+    "Topic":"File Systems and Disk Management",
+    "Question":"Which command is used to create a physical volume?",
+    "OptionA":"fdisk",
+    "OptionB":"lvcreate",
+    "OptionC":"vgcreate",
+    "OptionD":"pvcreate",
+    "Correct":4
+  },
+  {
+    "Topic":"Basic Networking",
+    "Question":"What is the purpose of the `netstat -tuln` command?",
+    "OptionA":"To trace packets",
+    "OptionB":"To test network speed",
+    "OptionC":"To list listening ports",
+    "OptionD":"To configure DNS",
+    "Correct":3
+  },
+  {
+    "Topic":"Basic Networking",
+    "Question":"Which command is used to configure a static IP address using `netplan`?",
+    "OptionA":"netplan apply",
+    "OptionB":"netplan config",
+    "OptionC":"netplan init",
+    "OptionD":"netplan start",
+    "Correct":1
+  },
+  {
+    "Topic":"File permissions and ownership",
+    "Question":"What is the purpose of the `-c` option in the `chmod` command?",
+    "OptionA":"Change the owner of a file or directory.",
+    "OptionB":"Display message for every file and directory whose permission is changed.",
+    "OptionC":"Copy files and directories.",
+    "OptionD":"Show the file's SELinux context.",
+    "Correct":2
+  },
+  {
+    "Topic":"File and directory manipulation",
+    "Question":"What is the primary purpose of the `mkdir -m` option?",
+    "OptionA":"Create a new directory with the specified permissions.",
+    "OptionB":"Rename a directory.",
+    "OptionC":"List the contents of a directory.",
+    "OptionD":"Move a directory to another location.",
+    "Correct":1
+  },
+  {
+    "Topic":"File permissions and ownership",
+    "Question":"You want to add execute permission to a file script.sh for the owner, group, and others without affecting other permissions. Which command will you use?",
+    "OptionA":"chmod +x script.sh",
+    "OptionB":"chmod a+x script.sh",
+    "OptionC":"chmod 777 script.sh",
+    "OptionD":"chmod ugo+x script.sh",
+    "Correct":2
+  },
+  {
+    "Topic":"File permissions and ownership",
+    "Question":"Which command removes the write permission for the group and others on a file data.txt?",
+    "OptionA":"chmod go-w data.txt",
+    "OptionB":"chmod 644 data.txt",
+    "OptionC":"chmod -w data.txt",
+    "OptionD":"chmod go+x data.txt",
+    "Correct":1
+  },
+  {
+    "Topic":"File Systems & Disk Management",
+    "Question":"What is the main advantage of ext4 over ext3?",
+    "OptionA":"Supports larger file sizes and journaling improvements",
+    "OptionB":"More compatibility with Windows",
+    "OptionC":"Faster disk formatting",
+    "OptionD":"Requires less disk space",
+    "Correct":1
+  },
+  {
+    "Topic":"File and directory manipulation",
+    "Question":"You use the `cp -u file1.txt file2.txt` command to copy a file. What is the result?",
+    "OptionA":"`file1.txt` is copied to `file2.txt` if `file2.txt` does not exist or is older.",
+    "OptionB":"An error is generated; the `-u` option is invalid for `cp`.",
+    "OptionC":"file1.txt` is copied to `file2.txt` regardless of the file's age.",
+    "OptionD":"`file1.txt` is moved to `file2.txt`.",
+    "Correct":1
+  },
+  {
+    "Topic":"Navigating the file system",
+    "Question":"Which directory contains user-installed applications in Linux?",
+    "OptionA":"\/usr\/local",
+    "OptionB":"\/usr\/bin",
+    "OptionC":"\/var\/lib",
+    "OptionD":"\/etc\/apps",
+    "Correct":1
+  }
+]
