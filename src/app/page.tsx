@@ -91,10 +91,10 @@ export default function Home() {
         </div>
 
         {(selectedTopic ? [[selectedTopic, groupedByTopic[selectedTopic]]] : Object.entries(groupedByTopic)).map(
-          ([topic, topicQuestions]) => (
-            <div key={topic} className="space-y-4">
+          ([topic, topicQuestions = []]) => (
+            <div key={String(topic)} className="space-y-4">
               <h2 className="text-2xl font-semibold">📘 {topic}</h2>
-              {topicQuestions.map((q, idx) => {
+              {(topicQuestions as Question[]).map((q, idx) => {
                 const key = `${topic}-${idx}`;
                 const showAnswer = clickedQuestions[key];
                 return (
@@ -129,4 +129,4 @@ export default function Home() {
       </div>
     </div>
   );
-} 
+}
