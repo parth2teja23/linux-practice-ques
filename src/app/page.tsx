@@ -13,7 +13,7 @@ interface Question {
 
 export default function Home() {
   const [questions, setQuestions] = useState<Question[]>([]);
-  const [clickedQuestions, setClickedQuestions] = useState<Record<number, boolean>>({});
+const [clickedQuestions, setClickedQuestions] = useState<Record<string, boolean>>({});
 
   useEffect(() => {
     fetch('/linux_questions.json')
